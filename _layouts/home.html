@@ -1,10 +1,39 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<div class="">
-  <h1>This is a test</h1>
-  {% for post in site.posts %}
-    {{ post.title }}
-  {% endfor %}
-</div>
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+
+        <div class="">
+          <h1>This is a test</h1>
+          {% for post in site.posts %}
+            {{ post.title }}
+          {% endfor %}
+        </div>
+        
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
+  </body>
+
+</html>
