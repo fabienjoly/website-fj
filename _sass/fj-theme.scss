@@ -42,8 +42,8 @@ $on-laptop:        800px !default;
 }
 
 // Import partials.
-// @import
-//   "fj-theme/base",
-//   "fj-theme/layout",
-//   "fj-theme/syntax-highlighting"
-// ;
+@import
+  "fj-theme/base",
+  "fj-theme/layout",
+  "fj-theme/syntax-highlighting"
+;

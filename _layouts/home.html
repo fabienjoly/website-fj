@@ -5,22 +5,10 @@
 
   <body>
 
-    {% include header.html %}
-
-    <div class="page-content">
-      <div class="wrapper">
-
-        <div class="">
-          <h1>This is a test</h1>
-          {% for post in site.posts %}
-            {{ post.title }}
-          {% endfor %}
-        </div>
-        
-      </div>
+    <div class="coming-soon">
+      <img class="coming-soon-logo" src="assets/uploads/fj-logo.svg"/>
+      <p class="coming-soon-text">coming soon</p>
     </div>
-
-    {% include footer.html %}
 
     <script>
       if (window.netlifyIdentity) {

@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html>
 
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fabien Joly - Haute fleuristerie</title>
+  <meta name="description" content="FJ site description">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/rss+xml" title="Fabien Joly - Haute fleuristerie" href="http://localhost:4000/feed.xml" />
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+
+  <body>
+
+    <div class="coming-soon">
+      <img class="coming-soon-logo" src="assets/uploads/fj-logo.svg"/>
+      <p class="coming-soon-text">coming soon</p>
+    </div>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
+  </body>
+
+</html>
