@@ -6,11 +6,11 @@
   <body>
 
     <div class="main-container">
-      {{ for project-item in site.project }}
+      {% for project-item in site.project %}
         <h1>{{ project-item.title }}</h1>
         <p>{{ project-item.description-fr }}</p>
         <i>{{ project-item.description-en }}</i>
-      {{ endfor }}
+      {% endfor %}
     </div>
 
     <script>
