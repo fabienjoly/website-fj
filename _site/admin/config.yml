@@ -29,3 +29,9 @@ collections:   # A list of collections the CMS should be able to edit
       - {label: "Position", name: "position", widget: "number", valueType: "int"}
       - {label: "Description fr", name: "description-fr", widget: "markdown"}
       - {label: "Description en", name: "description-en", widget: "markdown"}
+      - label: "Project images"
+        name: "project-images"
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+          - {label: "Image", name: "image", widget: "image"}

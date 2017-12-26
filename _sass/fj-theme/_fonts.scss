@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Tiempos';
+  src: url('fonts/TiemposHeadline-Light.eot');
+  src: url('fonts/TiemposHeadline-Light.woff2') format('woff2'),
+       url('fonts/TiemposHeadline-Light.woff') format('woff'),
+       url('fonts/TiemposHeadline-Light.ttf') format('truetype'),
+       url('fonts/TiemposHeadline-Light.svg#TiemposHeadline-Light') format('svg'),
+       url('fonts/TiemposHeadline-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MaisonNeue';
+  src: url('fonts/MaisonNeue-Book.eot');
+  src: url('fonts/MaisonNeue-Book.woff2') format('woff2'),
+       url('fonts/MaisonNeue-Book.woff') format('woff'),
+       url('fonts/MaisonNeue-Book.ttf') format('truetype'),
+       url('fonts/MaisonNeue-Book.svg#MaisonNeue-Book') format('svg'),
+       url('fonts/MaisonNeue-Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MaisonNeue';
+  src: url('fonts/MaisonNeue-BookItalic.eot');
+  src: url('fonts/MaisonNeue-BookItalic.woff2') format('woff2'),
+       url('fonts/MaisonNeue-BookItalic.woff') format('woff'),
+       url('fonts/MaisonNeue-BookItalic.ttf') format('truetype'),
+       url('fonts/MaisonNeue-BookItalic.svg#MaisonNeue-BookItalic') format('svg'),
+       url('fonts/MaisonNeue-BookItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'MaisonNeue';
+  src: url('fonts/MaisonNeue-Bold.eot');
+  src: url('fonts/MaisonNeue-Bold.woff2') format('woff2'),
+       url('fonts/MaisonNeue-Bold.woff') format('woff'),
+       url('fonts/MaisonNeue-Bold.ttf') format('truetype'),
+       url('fonts/MaisonNeue-Bold.svg#MaisonNeue-Bold') format('svg'),
+       url('fonts/MaisonNeue-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MaisonNeue';
+  src: url('fonts/MaisonNeue-BoldItalic.eot');
+  src: url('fonts/MaisonNeue-BoldItalic.woff2') format('woff2'),
+       url('fonts/MaisonNeue-BoldItalic.woff') format('woff'),
+       url('fonts/MaisonNeue-BoldItalic.ttf') format('truetype'),
+       url('fonts/MaisonNeue-BoldItalic.svg#MaisonNeue-BoldItalic') format('svg'),
+       url('fonts/MaisonNeue-BoldItalic.eot?#iefix') format('embedded-opentype');
+  font-weight: bold;
+  font-style: italic;
+}

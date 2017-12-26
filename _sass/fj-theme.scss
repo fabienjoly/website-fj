@@ -2,35 +2,66 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
+$title-font:          "Tiempos", Times, serif;
+$title-line-height:   0.8;
+$title-font-size:     82px;
 
-$spacing-unit:     30px !default;
+$text-font:           "MaisonNeue", Helvetica, Arial, sans-serif;
+$text-font-size:      18px;
+$text-line-height:    1.2;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
-
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$spacing-unit:        20px !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:       800px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm:             600px !default;
+$on-laptop:           800px !default;
 
-// Use media queries like this:
-// @include media-query($on-palm) {
-//   .wrapper {
-//     padding-right: $spacing-unit / 2;
-//     padding-left: $spacing-unit / 2;
-//   }
-// }
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    -ms-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+@mixin block-shadow {
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+    -ms-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+}
+
+@mixin box-sizing($sizing) {
+    -webkit-box-sizing: $sizing;
+    -moz-box-sizing: $sizing;
+    -ms-box-sizing: $sizing;
+    box-sizing: $sizing;
+}
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    transform: $transform;
+}
+
+@mixin flexbox {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
@@ -43,6 +74,7 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
+  "fj-theme/fonts",
   "fj-theme/base",
   "fj-theme/layout",
   "fj-theme/syntax-highlighting"

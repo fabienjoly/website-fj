@@ -6,10 +6,11 @@
   <body>
 
     <div class="main-container">
-      {% for project-item in site.project %}
-        <h1>{{ project-item.title }}</h1>
-        <p>{{ project-item.description-fr }}</p>
-        <i>{{ project-item.description-en }}</i>
+      {% assign project-sort = site.project | sort: 'position' %}
+      {% for project in project-sort %}
+        <h1 class="title">{{ project.title }}</h1>
+        <p>{{ project.description-fr }}</p>
+        <i>{{ project.description-en }}</i>
       {% endfor %}
     </div>
 
