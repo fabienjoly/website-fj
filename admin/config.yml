@@ -27,5 +27,5 @@ collections:   # A list of collections the CMS should be able to edit
       - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Position", name: "position", widget: "number", valueType: "int"}
-      - {label: "Description fr" name: "description-fr", widget: "markdown"}
-      - {label: "Description en" name: "description-en", widget: "markdown"}
+      - {label: "Description fr", name: "description-fr", widget: "markdown"}
+      - {label: "Description en", name: "description-en", widget: "markdown"}
