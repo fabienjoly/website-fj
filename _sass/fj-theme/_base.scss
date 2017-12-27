@@ -28,6 +28,10 @@ a, a:visited, a:hover {
   // color: $light-color;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .title {
   font-family: $title-font;
   font-size: $title-font-size;
