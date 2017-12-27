@@ -21,7 +21,7 @@ collections:   # A list of collections the CMS should be able to edit
   - name:      "project"
     label:     "Project"
     folder:    "_project"
-    sort:      "position:desc"
+    sort:      "position:asc"
     create:    true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
@@ -33,5 +33,4 @@ collections:   # A list of collections the CMS should be able to edit
         name: "project-images"
         widget: "list"
         fields:
-          - {label: "Image", name: "image", widget: "image"}
           - {label: "Image", name: "image", widget: "image"}
