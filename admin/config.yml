@@ -18,3 +18,28 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Categories", name: "categories", widget: "string"}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+  - name:      "project"
+    label:     "Project"
+    folder:    "_project"
+    sort:      "position:asc"
+    create:    true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Position", name: "position", widget: "number", valueType: "int"}
+      - {label: "Description fr", name: "description-fr", widget: "markdown"}
+      - {label: "Description en", name: "description-en", widget: "markdown"}
+      - label: "Project images"
+        name: "project-images"
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      label: "About page"
+      name: "about"
+      file: "pages/about.md"
+      fields:
+        - {label: "Description fr", name: "description-fr", widget: "markdown"}
+        - {label: "Description en", name: "description-en", widget: "markdown"}
