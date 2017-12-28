@@ -1,5 +1,111 @@
 <header class="site-header">
 
-  
+  <a href="{{ site.baseurl }}" class="logo-container">
+    <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+  </a>
+
+  {%- if site.lang == "fr" -%}
+  <nav class="nav">
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "project-list" -%}active{%- endif -%}"
+         href="{% tl project-list %}">
+         Réalisations
+      </a>
+    </div>
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "about" -%}active{%- endif -%}"
+         href="{% tl about %}">
+         À propos
+      </a>
+    </div>
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "contact" -%}active{%- endif -%}"
+         href="{% tl contact %}">
+         Contact
+      </a>
+    </div>
+  </nav>
+  {%- endif -%}
+
+  {%- if site.lang == "en" -%}
+  <nav class="nav">
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "project-list" -%}active{%- endif -%}"
+         href="{% tl project-list en %}">
+         Projects
+      </a>
+    </div>
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "about" -%}active{%- endif -%}"
+         href="{% tl about en %}">
+         About
+      </a>
+    </div>
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "contact" -%}active{%- endif -%}"
+         href="{% tl contact en %}">
+         Contact
+       </a>
+    </div>
+  </nav>
+  {%- endif -%}
 
 </header>
+
+<div class="menu-toggler">
+  <!-- <img src="" alt=""> -->
+</div>
+
+<div class="menu-container">
+  <menu class="menu">
+
+    {%- if site.lang == "fr" -%}
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "project-list" -%}active{%- endif -%}"
+         href="{% tl project-list %}"
+         tabindex="-1">
+         Réalisations
+      </a>
+    </div>
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "about" -%}active{%- endif -%}"
+         href="{% tl about %}"
+         tabindex="-1">
+         À propos
+      </a>
+    </div>
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "contact" -%}active{%- endif -%}"
+         href="{% tl contact %}"
+         tabindex="-1">
+         Contact
+      </a>
+    </div>
+    {%- endif -%}
+
+    {%- if site.lang == "en" -%}
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "project-list" -%}active{%- endif -%}"
+         href="{% tl project-list en %}"
+         tabindex="-1">
+         Projects
+      </a>
+    </div>
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "about" -%}active{%- endif -%}"
+         href="{% tl about en %}"
+         tabindex="-1">
+         About
+      </a>
+    </div>
+    <div class="header-link-container">
+      <a class="{%- if page.namespace == "contact" -%}active{%- endif -%}"
+         href="{% tl contact en %}"
+         tabindex="-1">
+         Contact
+       </a>
+    </div>
+    {%- endif -%}
+
+  </menu>
+</div>

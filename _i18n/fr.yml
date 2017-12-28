@@ -1,0 +1,10 @@
+global:
+  tagline: Français
+  about: À propos
+langs:
+  fr: Français
+  en: English
+pages:
+  about: À propos
+  contact: Contact
+  projects: Réalisations

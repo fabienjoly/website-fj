@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+
+<h4 class="title about-title">
+  Fabien Joly
+</h4>
+<div class="about-photo">
+  <img src="" alt="">
+</div>
+<div class="about-description">
+  {%- if site.lang == "fr" -%}
+    {{ page.description-fr }}
+  {%- endif -%}
+
+  {%- if site.lang == "en" -%}
+    {{ page.description-en }}
+  {%- endif -%}
+</div>

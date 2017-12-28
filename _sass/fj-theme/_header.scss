@@ -1,0 +1,121 @@
+.site-header {
+  width: 100%;
+  @include flexbox;
+  flex-direction: column;
+  align-items: center;
+  padding: $spacing-unit*6 0;
+}
+
+.logo-container {
+
+  margin: 0 0 $spacing-unit*3;
+
+  img  {
+    height: 120px;
+  }
+}
+
+.nav {
+  width: 100%;
+  max-width: 600px;
+  @include flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .header-link-container {
+    display: block;
+    width: 200px;
+    text-align: center;
+
+    &:first-child {
+      text-align: left;
+    }
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+
+  a {
+    display: inline-block;
+    position: relative;
+    height: $spacing-unit*1.5;
+    line-height: $spacing-unit*1.5;
+    padding: 0 10px;
+    color: $text-grey;
+    text-decoration: none;
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: -$spacing-unit/2;
+      left: 0;
+      height: 1px;
+      background-color: $brand-color;
+      opacity: 0;
+      transform: translateY(10px) scaleX(0.5);
+      transition: opacity 0.25s, transform 0.25s;
+      pointer-events: none;
+    }
+
+    &:hover::after {
+      opacity: 1;
+      transform: translateY(0) scaleX(1);
+    }
+
+    &.active {
+      color: $text-dark;
+    }
+  }
+}
+
+
+
+// Menu stuff
+
+.menu-toggler {
+  position: fixed;
+  z-index: 15;
+  top: $spacing-unit*2;
+  right: $spacing-unit*2;
+  width: $spacing-unit;
+  height: $spacing-unit;
+  background-color: blue;
+  cursor: pointer;
+}
+
+
+.menu-container {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  overflow: hidden;
+  pointer-events: none;
+
+  &.menu-visible {
+    pointer-events: all;
+  }
+}
+
+.menu {
+  position: relative;
+  width: 80%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  box-shadow: 0px 0px 50px rgba(#000, 0.2);
+  transform: translateX(140%);
+}
+
+.menu-visible .menu {
+  transform: translateX(25%);
+}
+
+.menu-animatable .menu {
+  transition: transform 0.25s;
+}

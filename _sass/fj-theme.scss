@@ -12,6 +12,14 @@ $text-line-height:    1.2;
 
 $spacing-unit:        20px !default;
 
+// COLORS
+$text-dark:           #1C1C1C;
+$text-grey:           #919191;
+
+$brand-color:         #a48c62;
+$bg-dark:             #292828;
+$border-color:        #C3C3C3;
+
 // Width of the content area
 $content-width:       800px !default;
 
@@ -74,8 +82,15 @@ $on-laptop:           800px !default;
 
 // Import partials.
 @import
+  //globals
   "fj-theme/fonts",
+  "fj-theme/syntax-highlighting",
   "fj-theme/base",
-  "fj-theme/layout",
-  "fj-theme/syntax-highlighting"
+  //includes
+  "fj-theme/header",
+  // Pages
+  "fj-theme/homepage",
+  "fj-theme/project-list-page",
+  "fj-theme/about-page",
+  "fj-theme/contact-page"
 ;

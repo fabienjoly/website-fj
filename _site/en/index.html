@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fabien Joly - Haute fleuristerie</title>
+  <meta name="description" content="FJ site description">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/en/">
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+
+  <body>
+
+    <div class="main-container">
+      <!-- 
+      
+        <h1 class="title">This is the first test project</h1>
+        <p>Cette description est française</p>
+        <i>This is an english description</i>
+      
+        <h1 class="title">This is the second project</h1>
+        <p>Cette description est française</p>
+        <i>This is an english description</i>
+      
+        <h1 class="title">The Third entry</h1>
+        <p>Souague</p>
+        <i>thug</i>
+       -->
+    </div>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
+  </body>
+
+</html>

@@ -22,6 +22,7 @@ body {
   font-family: $text-font;
   font-size: $text-font-size;
   line-height: $text-line-height;
+  color: $text-dark;
 }
 
 a, a:visited, a:hover {
@@ -30,6 +31,10 @@ a, a:visited, a:hover {
 
 .hidden {
   visibility: hidden;
+  height: 0;
+  width: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .title {
