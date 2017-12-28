@@ -41,10 +41,9 @@ collections:   # A list of collections the CMS should be able to edit
         name: "about"
         file: "pages/about.md"
         fields:
-          - {label: Description fr, name: description-fr, widget: markdown}
-          - {label: Description en, name: description-en, widget: markdown}
-      - label: "Test page"
-        name: "test"
-        file: "pages/test.md"
-        fields:
-          - {label: title, name: title, widget: text}
+          - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
+          - {label: "Namespace", name: "namespace", widget: "hidden", default: "about"}
+          - {label: "Permalink fr", name: "permalink", widget: "hidden", default: "/a-propos/"}
+          - {label: "Permalink en", name: "permalink_en", widget: "hidden", default: "/about/"}
+          - {label: "Description fr", name: "description-fr", widget: "markdown"}
+          - {label: "Description en", name: "description-en", widget: "markdown"}
