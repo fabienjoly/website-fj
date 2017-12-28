@@ -37,9 +37,9 @@ collections:   # A list of collections the CMS should be able to edit
   - name: "pages"
     label: "Pages"
     files:
-      label: "About page"
-      name: "about"
-      file: "pages/about.yml"
-      fields:
-        - {label: "Description fr", name: "description-fr", widget: "markdown"}
-        - {label: "Description en", name: "description-en", widget: "markdown"}
+      - label: "About page"
+        name: "about"
+        file: "pages/about.md"
+        fields:
+          - {label: "Description fr", name: "description-fr", widget: "markdown"}
+          - {label: "Description en", name: "description-en", widget: "markdown"}
