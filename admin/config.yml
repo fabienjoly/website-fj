@@ -41,5 +41,10 @@ collections:   # A list of collections the CMS should be able to edit
         name: "about"
         file: "pages/about.md"
         fields:
-          - {label: "Description fr", name: "description-fr", widget: "markdown"}
-          - {label: "Description en", name: "description-en", widget: "markdown"}
+          - {label: Description fr, name: description-fr, widget: markdown}
+          - {label: Description en, name: description-en, widget: markdown}
+      - label: "Test page"
+        name: "test"
+        file: "pages/test.md"
+        fields:
+          - {label: title, name: title, widget: text}
