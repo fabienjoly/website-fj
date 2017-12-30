@@ -25,6 +25,10 @@ body {
   color: $text-dark;
 }
 
+.scroll-locked {
+  overflow: hidden;
+}
+
 a, a:visited, a:hover {
   // color: $light-color;
 }

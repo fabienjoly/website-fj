@@ -3,8 +3,8 @@
 // Define defaults for each variable.
 
 $title-font:          "Tiempos", Times, serif;
-$title-line-height:   0.8;
 $title-font-size:     82px;
+$title-line-height:   0.8;
 
 $text-font:           "MaisonNeue", Helvetica, Arial, sans-serif;
 $text-font-size:      18px;
@@ -88,6 +88,7 @@ $on-laptop:           800px !default;
   "fj-theme/base",
   //includes
   "fj-theme/header",
+  "fj-theme/menu",
   // Pages
   "fj-theme/homepage",
   "fj-theme/project-list-page",

@@ -14,6 +14,9 @@ markdown: kramdown
 
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-livereload
 
 languages: ["fr", "en"]
 exclude_from_localizations: ["assets"]
+
+livereload: true
