@@ -1,7 +1,7 @@
 ---
 layout: project
 title: The Third entry
-position: 3
+position: 1
 description-fr: Souague
 description-en: thug
 project-images:
