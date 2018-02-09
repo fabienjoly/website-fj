@@ -5,8 +5,34 @@
   right: $spacing-unit*2;
   width: $spacing-unit;
   height: $spacing-unit;
-  background-color: blue;
+  // background-color: blue;
   cursor: pointer;
+
+  span {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: $text-dark;
+
+    &::after, &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background-color: $text-dark;
+    }
+
+    &::before {
+      top: -7px;
+    }
+
+    &::after {
+      bottom: -7px;
+    }
+  }
 }
 
 .menu-container {
@@ -46,7 +72,7 @@
   width: 560px;
   height: 100%;
   z-index: 10;
-  padding: $spacing-unit*3 0 $spacing-unit*3 $spacing-unit*5;
+  padding: $spacing-unit*4 0 $spacing-unit*3 $spacing-unit*5;
   margin: 0;
   @include flexbox;
   flex-direction: column;
@@ -86,7 +112,7 @@
 
 .menu-logo-container {
   display: block;
-  margin: 0 0 $spacing-unit*3;
+  // margin: 0 0 $spacing-unit*4;
 
   img {
     height: 60px;
@@ -98,7 +124,7 @@
 .menu-link-container a:visited {
   position: relative;
   font-family: $title-font;
-  font-size: $title-font-size/2;
+  font-size: $title-small-size;
   color: inherit;
   text-decoration: none;
   line-height: $title-font-size/2;
@@ -144,7 +170,7 @@
 }
 
 .menu-main-links:hover a {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .menu-main-links a:hover {
@@ -155,10 +181,14 @@
   display: inline;
   margin: 0 0 $spacing-unit*2;
   color: $text-dark;
-  transform: translateX(300px);
+  transform: translateX(120px);
   opacity: 0;
   // will-change: transform, opacity;
   transition: transform 0s 0.5s, opacity 0s 0.5s;
+
+  &:last-child {
+    margin: 0;
+  }
 }
 
 .menu-visible .menu-link-container.first {
@@ -183,8 +213,8 @@
   a, a:visited {
     display: block;
     color: $text-dark;
-    opacity: 0.6;
-    margin: 0 0 $spacing-unit;
+    opacity: 0.5;
+    margin: 0 0 $spacing-unit/2;
     text-decoration: none;
     transition: opacity 0.22s;
 

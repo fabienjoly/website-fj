@@ -3,12 +3,14 @@
 // Define defaults for each variable.
 
 $title-font:          "Tiempos", Times, serif;
-$title-font-size:     82px;
+$title-font-size:     86px;
+$title-small-size:    $title-font-size/2;
 $title-line-height:   0.8;
 
 $text-font:           "MaisonNeue", Helvetica, Arial, sans-serif;
 $text-font-size:      18px;
-$text-line-height:    1.2;
+$text-small-size:     16px;
+$text-line-height:    1.6;
 
 $spacing-unit:        20px !default;
 

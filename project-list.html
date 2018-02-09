@@ -10,14 +10,14 @@ permalink_en: /projects/
   {% assign project-sorted = site.project | sort: 'position' %}
   {%- for project in project-sorted -%}
   <div class="project-container">
-    <div class="project-title">
+    <div class="title project-title">
       <h2>{{ project.title }}</h2>
     </div>
     <div class="project-content">
 
       <div class="project-description">
-        <div class="description-tags">
-
+        <div class="project-category">
+          {{ project.category }}
         </div>
         <div class="description-text">
           {%- if site.lang == "fr" -%}
@@ -27,15 +27,16 @@ permalink_en: /projects/
             {{ project.description-en }}
           {%- endif -%}
         </div>
+        <button type="button" name="button">Détails</button>
       </div>
 
       <div class="project-images">
-        <img src="{{ project.image-cover }}">
+        <img src="{{ site.baseurl_root }}/{{ project.cover-image }}">
         {%- if project.cover-image-2 -%}
-          <img src="{{ project.image-cover-3 }}">
+          <img src="{{ site.baseurl_root }}/{{ project.cover-image-3 }}">
         {%- endif -%}
         {%- if project.cover-image-3 -%}
-          <img src="{{ project.image-cover-2 }}">
+          <img src="{{ site.baseurl_root }}/{{ project.cover-image-2 }}">
         {%- endif -%}
       </div>
 

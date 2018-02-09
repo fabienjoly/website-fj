@@ -1,0 +1,57 @@
+.home-container {
+  min-height: 100vh;
+  @include flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: $spacing-unit*3 0 $spacing-unit*5;
+}
+
+.home-title {
+  // margin: $spacing-unit*3 0 0;
+  text-align: center;
+
+  h1 {
+    font-family: $title-font;
+    font-size: 31px;
+  }
+
+  span {
+    font-size: 18px;
+    color: $text-grey;
+  }
+}
+
+.home-logo {
+  animation: logo-animation 3s;
+
+  img {
+    width: 120px;
+  }
+}
+
+@keyframes logo-animation {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  20% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+
+.home-lang-select {
+  a, a:visited {
+    color: $text-dark
+  }
+}

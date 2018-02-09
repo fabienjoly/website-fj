@@ -6,12 +6,25 @@
   <body>
 
     <div class="main-container">
-      <!-- {% assign project-sort = site.project | sort: 'position' %}
-      {% for project in project-sort %}
-        <h1 class="title">{{ project.title }}</h1>
-        <p>{{ project.description-fr }}</p>
-        <i>{{ project.description-en }}</i>
-      {% endfor %} -->
+      <div class="home-container">
+        <div class="home-title">
+          <h1>Fabien Joly</h1>
+          <span>Haute Fleuristerie</span>
+        </div>
+        {%- if site.lang == "fr" -%}
+        <a href="{% tl project-list %}" class="home-logo">
+          <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+        </a>
+        {%- endif -%}
+        {%- if site.lang == "en" -%}
+        <a href="{% tl project-list en %}" class="home-logo">
+          <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+        </a>
+        {%- endif -%}
+        <div class="home-lang-select">
+          <a href="{{ site.baseurl_root }}">fr</a> / <a href="{{ site.baseurl_root }}/en">en</a>
+        </div>
+      </div>
     </div>
 
     <script>
