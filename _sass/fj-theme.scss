@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import "fj-theme/fonts";
 
 // Define defaults for each variable.
 
@@ -18,15 +19,19 @@ $spacing-unit:        20px !default;
 $text-dark:           #1C1C1C;
 $text-grey:           #919191;
 
+$light-grey:          #f2f2f2;
+// $medium-grey:         #cfcbc7;
+
 $brand-color:         #a48c62;
 $bg-dark:             #292828;
 $border-color:        #C3C3C3;
 
 // Width of the content area
-$content-width:       800px !default;
+// $content-width:       800px !default;
 
-$on-palm:             600px !default;
-$on-laptop:           800px !default;
+$phone:               720px;
+$tablet:              1024px;
+$laptop:              1280px;
 
 
 @mixin border-radius($radius) {
@@ -85,15 +90,15 @@ $on-laptop:           800px !default;
 // Import partials.
 @import
   //globals
-  "fj-theme/fonts",
   "fj-theme/syntax-highlighting",
   "fj-theme/base",
-  //includes
+  "fj-theme/form-components",
+  "fj-theme/filter-select",
+  // UI components
   "fj-theme/header",
   "fj-theme/menu",
   // Pages
   "fj-theme/homepage",
   "fj-theme/project-list-page",
-  "fj-theme/about-page",
-  "fj-theme/contact-page"
+  "fj-theme/about-page"
 ;

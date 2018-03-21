@@ -12,17 +12,16 @@
           <span>Haute Fleuristerie</span>
         </div>
         {%- if site.lang == "fr" -%}
-        <a href="{% tl project-list %}" class="home-logo">
+        <a href="{{ site.baseurl_root }}/projects/" class="home-logo">
           <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
         </a>
-        {%- endif -%}
-        {%- if site.lang == "en" -%}
-        <a href="{% tl project-list en %}" class="home-logo">
+        {%- elsif site.lang == "en" -%}
+        <a href="{{ site.baseurl_root }}/en/projects/" class="home-logo">
           <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
         </a>
         {%- endif -%}
         <div class="home-lang-select">
-          <a href="{{ site.baseurl_root }}">fr</a> / <a href="{{ site.baseurl_root }}/en">en</a>
+          <a href="{{ site.baseurl_root }}/projects/">fr</a> / <a href="{{ site.baseurl_root }}/en/projects/">en</a>
         </div>
       </div>
     </div>

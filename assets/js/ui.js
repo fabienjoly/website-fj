@@ -1,14 +1,26 @@
+
+var scaleContainer = document.querySelector(".scale-animation-container");
+
 // Menu Opening
 function toggleClassMenu() {
+	var scrollPosition = window.scrollY;
+	var windowHeight = window.innerHeight;
+	var centerOfViewport = (windowHeight/2) + scrollPosition;
+
+	// Set transform origin for the main container
+	scaleContainer.style.transformOrigin = " 50% " + centerOfViewport + "px";
+
 	menuContainer.classList.add("menu-animatable");
 	if(!menuContainer.classList.contains("menu-visible")) {
 		menuContainer.classList.add("menu-visible");
 		menuCache.classList.add("active");
 		pageBody.classList.add("scroll-locked");
+		menuToggler.classList.add("menu-visible");
 	} else {
 		menuContainer.classList.remove('menu-visible');
 		menuCache.classList.remove("active");
 		pageBody.classList.remove("scroll-locked");
+		menuToggler.classList.remove("menu-visible");
 	}
 }
 
@@ -24,21 +36,3 @@ var pageBody = document.body;
 menuContainer.addEventListener("transitionend", OnTransitionEnd, false);
 menuToggler.addEventListener("click", toggleClassMenu, false);
 menuCache.addEventListener("click", toggleClassMenu, false);
-
-
-
-
-// Changing the transform origin of the scale container on scroll
-
-var scaleContainer = document.querySelector(".scale-animation-container");
-
-function setTransformOrigin() {
-	var scrollPosition = window.scrollY;
-	var windowHeight = window.innerHeight;
-	var centerOfViewport = (windowHeight/2) + scrollPosition;
-
-	scaleContainer.style.transformOrigin = " 50% " + centerOfViewport + "px";
-}
-
-document.addEventListener("DOMContentLoaded", setTransformOrigin, false);
-document.addEventListener("scroll", setTransformOrigin, false);

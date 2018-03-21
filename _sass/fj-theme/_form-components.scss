@@ -87,7 +87,9 @@ input {
   padding: 25px 20px 5px;
 }
 
-button {
+button, .button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
   font-family: $text-font;
   font-size: $text-font-size;
   color: $text-dark;

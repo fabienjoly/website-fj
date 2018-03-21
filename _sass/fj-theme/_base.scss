@@ -36,8 +36,13 @@ a, a:visited, a:hover {
   // color: $light-color;
 }
 
+.main-container {
+  padding: $spacing-unit*2 0;
+}
+
 .hidden {
   visibility: hidden;
+  display: none;
   height: 0;
   width: 0;
   margin: 0;
@@ -49,6 +54,17 @@ a, a:visited, a:hover {
   font-size: $title-font-size;
   line-height: $title-line-height;
 }
+
+.wrapper {
+  width: 100%;
+  padding: $spacing-unit*2 $spacing-unit*5 $spacing-unit*6;
+  margin: 0 auto;
+
+  @include media-query($laptop) {
+    padding: $spacing-unit*2 $spacing-unit*3 $spacing-unit*6;
+  }
+}
+
 
 .coming-soon {
   display: block;

@@ -3,13 +3,31 @@
   z-index: 15;
   top: $spacing-unit*2;
   right: $spacing-unit*2;
-  width: $spacing-unit;
-  height: $spacing-unit;
+  width: 21px;
+  height: 21px;
   // background-color: blue;
   cursor: pointer;
+  transition: transform 0.4s;
 
-  span {
+  .trigger-bg {
     position: absolute;
+    z-index: 5;
+    width: 41px;
+    height: 41px;
+    top: -10px;
+    left: -10px;
+    border-radius: 50%;
+    background-color: $light-grey;
+    transform: scale(0);
+  }
+
+  &:hover .trigger-bg {
+    transform: scale(1);
+  }
+
+  .menu-closed-icon {
+    position: absolute;
+    z-index: 10;
     top: 10px;
     left: 0;
     height: 1px;
@@ -23,14 +41,45 @@
       height: 1px;
       width: 100%;
       background-color: $text-dark;
+      transform: scaleX(1);
+      transition: transform 0.3s 0.1s;
     }
 
     &::before {
       top: -7px;
+      transform-origin: right center;
     }
 
     &::after {
       bottom: -7px;
+      transform-origin: left center;
+    }
+  }
+
+  .menu-opened-icon {
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    left: 10px;
+    height: 100%;
+    width: 1px;
+    background-color: $text-dark;
+    transform: scaleY(0);
+    transition: transform 0.3s 0s;
+  }
+
+  &.menu-visible {
+    transform: rotate(-45deg);
+
+    .menu-closed-icon::before,
+    .menu-closed-icon::after {
+      transform: scaleX(0);
+      transition: transform 0.3s 0s;
+    }
+
+    .menu-opened-icon {
+      transition: transform 0.3s 0.1s;
+      transform: scaleY(1);
     }
   }
 }

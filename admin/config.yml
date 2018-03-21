@@ -2,7 +2,7 @@ backend:
   name:        git-gateway
   branch:      master
 
-media_folder:  "assets/uploads" 
+media_folder:  "assets/uploads"
 
 collections:
   - name:      "project"
@@ -12,10 +12,15 @@ collections:
     create:    true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Titre du projet", name: "title", widget: "string"}
+      - {label: "Catégorie", name: "category", widget: "select" options: ["set-design", "event", "composition"]}
       - {label: "Position", name: "position", widget: "number", valueType: "int"}
-      - {label: "Description fr", name: "description-fr", widget: "markdown"}
-      - {label: "Description en", name: "description-en", widget: "markdown"}
+      - {label: "Image de couverture", name: "cover-image", widget "image"}
+      - {label: "Image de couverture 2 (optionnelle)", name: "cover-image-2", widget "image"}
+      - {label: "Extrait français", name: "abstract-fr", widget: "markdown"}
+      - {label: "Extrait anglais", name: "abstract-en", widget: "markdown"}
+      - {label: "Description française", name: "description-fr", widget: "markdown"}
+      - {label: "Description anglaise", name: "description-en", widget: "markdown"}
       - label: "Project images"
         name: "project-images"
         widget: "list"

@@ -10,7 +10,7 @@
   <meta name="description" content="FJ site description">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/en/contact-en/">
+  <link rel="canonical" href="http://localhost:4000/contact/">
 
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script src="http://127.0.0.1:35729/livereload.js"></script></head>
@@ -19,8 +19,9 @@
   <body>
 
     <div class="menu-toggler">
-  <!-- <img src="" alt=""> -->
-  <span></span>
+  <span class="trigger-bg"></span>
+  <span class="menu-closed-icon"></span>
+  <span class="menu-opened-icon"></span>
 </div>
 
 <div class="menu-container">
@@ -30,32 +31,34 @@
   <menu class="menu">
 
     <div class="menu-top-container">
-      <a href="/en" class="menu-logo-container">
+      <a href="" class="menu-logo-container">
         <img src="/assets/images/fj-logo.svg" alt="Fabien Joly logo">
       </a>
     </div>
 
-    <div class="menu-main-links"><div class="menu-link-container first">
+    <div class="menu-main-links">
+      <div class="menu-link-container first">
         <a class="menu-link"
-           href="/en/projects/"
+           href="/projects/"
            tabindex="-1">
-           Projects
+           Réalisations
         </a><br>
       </div>
       <div class="menu-link-container second">
         <a class="menu-link"
-           href="/en/about/"
+           href="/about/"
            tabindex="-1">
-           About
-        </a>
+           À propos
+        </a><br>
       </div>
       <div class="menu-link-container third">
         <a class="menu-link"
-           href="/en/contact-en/"
+           href="/contact/"
            tabindex="-1">
            Contact
-         </a>
-      </div></div>
+        </a><br>
+      </div>
+    </div>
 
     <div class="menu-bottom-container">
       <div class="menu-social">
@@ -73,35 +76,40 @@
 
       <header class="site-header">
 
-  <a href="/en" class="logo-container">
+  <a href="" class="logo-container">
     <img src="/assets/images/fj-logo.svg" alt="Fabien Joly logo">
-  </a><nav class="nav">
+  </a>
+  <nav class="nav">
     <div class="header-link-container">
       <a class=""
-         href="/en/projects/">
-         Projects
+         href="/projects/">
+         Réalisations
       </a>
     </div>
     <div class="header-link-container">
       <a class=""
-         href="/en/about/">
-         About
+         href="/about/">
+         À propos
       </a>
     </div>
     <div class="header-link-container">
-      <a class="active"
-         href="/en/contact-en/">
+      <a class=""
+         href="/contact/">
          Contact
-       </a>
+      </a>
     </div>
-  </nav></header>
+  </nav>
+
+  <!---->
+
+</header>
 
 
       <div class="main-container">
         <h4 class="form-title">Contact</h4>
 <form name="contact"
       class=""
-      action="/en/thank-you/"
+      action="/merci/"
       netlify-honeypot="bot-field"
       netlify>
 
@@ -115,7 +123,7 @@
            type="text"
            name="name"
            placeholder=" ">
-    <label for="name">Name</label>
+    <label for="name">Nom</label>
   </div>
 
   <div class="input-container">
@@ -126,7 +134,7 @@
            required
            oninvalid="this.setCustomValidity('Please enter valid email')"
            oninput="setCustomValidity('')">
-    <label for="email">E-mail address</label>
+    <label for="email">Adresse e-mail</label>
   </div>
 
   <div class="input-container">
@@ -134,7 +142,7 @@
            type="text"
            name="subject"
            placeholder=" ">
-    <label for="subject">Subject</label>
+    <label for="subject">Sujet</label>
   </div>
 
   <div class="input-container textarea">
@@ -147,7 +155,7 @@
     </label>
   </div>
 
-  <button type="submit">Send</button>
+  <button type="submit">Envoyer</button>
 </form>
 
       </div>
@@ -156,7 +164,9 @@
 
     <footer class="site-footer">
 
-
+  
+    <a href="en/contact/" >English</a>
+  
 
 </footer>
 

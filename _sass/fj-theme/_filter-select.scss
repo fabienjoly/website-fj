@@ -1,0 +1,91 @@
+/*the container must be positioned relative:*/
+.filter-select-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: $spacing-unit*2;
+}
+
+.custom-select {
+  position: relative;
+}
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  height: 50px;
+  line-height: 52px;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+.select-selected {
+  position: relative;
+  z-index: 10;
+  background-color: white;
+  border: 1px solid $border-color;
+  @include border-radius(3px);
+}
+
+.select-items {
+  position: absolute;
+  z-index: 5;
+  background-color: white;
+  border-right: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+  border-left: 1px solid $border-color;
+  @include border-radius(0px 0px 3px 3px);
+  top: 100%;
+  left: 0;
+  right: 0;
+  pointer-events: all;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: opacity 0.2s, transform 0.2s;
+  overflow: hidden;
+}
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 17px;
+  right: 17px;
+  width: 8px;
+  height: 8px;
+  border-left: 2px solid $text-grey;
+  border-bottom: 2px solid $text-grey;
+  transform-origin: 4px 6px;
+  transform: rotate(-45deg);
+  transition: transform 0.2s;
+}
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active {
+  @include border-radius(3px 3px 0px 0px);
+}
+.select-selected.select-arrow-active:after {
+  transform: rotate(-225deg);
+}
+/*style the items (options), including the selected item:*/
+
+/*style items (options):*/
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(-50px);
+}
+
+.select-items div {
+  height: 40px;
+  line-height: 42px;
+  margin: 5px;
+  padding: 0px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.select-items div:hover {
+  background-color: $light-grey;
+}

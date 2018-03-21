@@ -1,10 +1,7 @@
 ---
 layout: about
-
-namespace: about
-
-permalink: /a-propos/
-permalink_en: /about/
+name: about
+permalink: /about/
 
 description-fr: description française
 description-en: english description

@@ -10,6 +10,7 @@
 .home-title {
   // margin: $spacing-unit*3 0 0;
   text-align: center;
+  animation: title-animation 4s;
 
   h1 {
     font-family: $title-font;
@@ -27,6 +28,18 @@
 
   img {
     width: 120px;
+  }
+}
+
+@keyframes title-animation {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

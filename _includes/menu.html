@@ -1,6 +1,7 @@
 <div class="menu-toggler">
-  <!-- <img src="" alt=""> -->
-  <span></span>
+  <span class="trigger-bg"></span>
+  <span class="menu-closed-icon"></span>
+  <span class="menu-opened-icon"></span>
 </div>
 
 <div class="menu-container">
@@ -16,53 +17,27 @@
     </div>
 
     <div class="menu-main-links">
-      {%- if site.lang == "fr" -%}
       <div class="menu-link-container first">
         <a class="menu-link"
-           href="{% tl project-list %}"
+           href="{{ site.baseurl }}/projects/"
            tabindex="-1">
-           Réalisations
+           {% translate pages.projects %}
         </a><br>
       </div>
       <div class="menu-link-container second">
         <a class="menu-link"
-           href="{% tl about %}"
+           href="{{ site.baseurl }}/about/"
            tabindex="-1">
-           À propos
+           {% translate pages.about %}
         </a><br>
       </div>
       <div class="menu-link-container third">
         <a class="menu-link"
-           href="{% tl contact %}"
+           href="{{ site.baseurl }}/contact/"
            tabindex="-1">
-           Contact
+           {% translate pages.contact %}
         </a><br>
       </div>
-      {%- endif -%}
-
-      {%- if site.lang == "en" -%}
-      <div class="menu-link-container first">
-        <a class="menu-link"
-           href="{% tl project-list en %}"
-           tabindex="-1">
-           Projects
-        </a><br>
-      </div>
-      <div class="menu-link-container second">
-        <a class="menu-link"
-           href="{% tl about en %}"
-           tabindex="-1">
-           About
-        </a>
-      </div>
-      <div class="menu-link-container third">
-        <a class="menu-link"
-           href="{% tl contact en %}"
-           tabindex="-1">
-           Contact
-         </a>
-      </div>
-      {%- endif -%}
     </div>
 
     <div class="menu-bottom-container">

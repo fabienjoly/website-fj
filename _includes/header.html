@@ -3,28 +3,29 @@
   <a href="{{ site.baseurl }}" class="logo-container">
     <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
   </a>
-
-  {%- if site.lang == "fr" -%}
   <nav class="nav">
     <div class="header-link-container">
-      <a class="{%- if page.namespace == "project-list" -%}active{%- endif -%}"
-         href="{% tl project-list %}">
-         Réalisations
+      <a class="{%- if page.name == "project-list" -%}active{%- endif -%}"
+         href="{{ site.baseurl }}/projects/">
+         {% translate pages.projects %}
       </a>
     </div>
     <div class="header-link-container">
-      <a class="{%- if page.namespace == "about" -%}active{%- endif -%}"
-         href="{% tl about %}">
-         À propos
+      <a class="{%- if page.name == "about" -%}active{%- endif -%}"
+         href="{{ site.baseurl }}/about/">
+         {% translate pages.about %}
       </a>
     </div>
     <div class="header-link-container">
-      <a class="{%- if page.namespace == "contact" -%}active{%- endif -%}"
-         href="{% tl contact %}">
-         Contact
+      <a class="{%- if page.name == "contact" -%}active{%- endif -%}"
+         href="{{ site.baseurl }}/contact/">
+         {% translate pages.contact %}
       </a>
     </div>
   </nav>
+
+  <!-- {%- if site.lang == "fr" -%}
+
   {%- endif -%}
 
   {%- if site.lang == "en" -%}
@@ -48,6 +49,6 @@
        </a>
     </div>
   </nav>
-  {%- endif -%}
+  {%- endif -%} -->
 
 </header>
