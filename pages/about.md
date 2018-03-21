@@ -1,6 +1,6 @@
 ---
 layout: about
-name: about
+namesp: about
 permalink: /about/
 
 description-fr: description française
