@@ -13,7 +13,7 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
       - {label: "Titre du projet", name: "title", widget: "string"}
-      - {label: "Catégorie", name: "category", widget: "select" options: ["set-design", "event", "composition"]}
+      - {label: "Catégorie", name: "category", widget: "select", options: ["set-design", "event", "composition"]}
       - {label: "Position", name: "position", widget: "number", valueType: "int"}
       - {label: "Image de couverture", name: "cover-image", widget "image"}
       - {label: "Image de couverture 2 (optionnelle)", name: "cover-image-2", widget "image"}

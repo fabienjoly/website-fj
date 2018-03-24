@@ -799,10 +799,30 @@ button, .button {
     width: 31.3333%; }
 
 .project-detail-button {
+  position: relative;
   display: inline-block;
   text-decoration: none;
-  margin-top: 20px; }
+  margin-top: 20px;
+  overflow: hidden; }
+  .project-detail-button .button-click-highlight {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    animation: btn-highlight 0.65s; }
 
+@keyframes btn-highlight {
+  0% {
+    opacity: 0.5;
+    transform: scale(0); }
+  100% {
+    opacity: 0;
+    transform: scale(3); } }
 .about-title {
   text-align: center;
   margin: 20px 0 20px;
