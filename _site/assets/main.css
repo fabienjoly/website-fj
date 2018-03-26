@@ -221,12 +221,13 @@ body {
       padding: 40px 60px 120px; } }
 
 .coming-soon {
-  display: block;
-  width: 100%;
-  min-height: 100vh;
-  padding: 200px 0 0; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; }
 
-.coming-soon-logo {
+.coming-soon img {
   display: block;
   height: 200px;
   margin: 0 auto; }

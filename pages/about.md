@@ -1,13 +1,9 @@
 ---
 layout: about
-namespace: about
-permalink: /a-propos/
-permalink_en: /about/
+permalink: /about/
 image-about: /assets/uploads/fabien-joly-about.jpg
 description-fr: >-
-  Fabien Joly a pour parcours singulier, celui d’un « self made man » dans le
-  monde de la fleur.
-
+  Fabien Joly a pour parcours singulier, celui d’un « self made man » dans le monde de la fleur.
 
   Titulaire d’une maîtrise de sociologie, il se destine à l’enseignement. Mais
   arrivé à Paris, Fabien se découvre une passion pour les fleurs.

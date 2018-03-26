@@ -67,13 +67,14 @@ a, a:visited, a:hover {
 
 
 .coming-soon {
-  display: block;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
-  padding: 200px 0 0;
 }
 
-.coming-soon-logo {
+.coming-soon img {
   display: block;
   height: 200px;
   margin: 0 auto;
