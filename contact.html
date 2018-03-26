@@ -36,7 +36,7 @@ permalink: /contact/
       <input id="email"
              type="email"
              name="email"
-             placeholder=" "
+             placeholder="john@test.com"
              required
              oninvalid="this.setCustomValidity('Please enter valid email')"
              oninput="setCustomValidity('')">
@@ -53,8 +53,7 @@ permalink: /contact/
     <div class="input-container">
       <input id="subject"
              type="text"
-             name="subject"
-             placeholder=" ">
+             name="subject">
       <label for="subject">
         {%- if site.lang == "fr" -%}
           Sujet

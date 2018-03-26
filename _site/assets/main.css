@@ -324,8 +324,6 @@ input, textarea {
     input:focus + label, textarea:focus + label {
       transform: scale(0.6);
       color: #a48c62; }
-  input:placeholder-shown:not(:focus) + label, textarea:placeholder-shown:not(:focus) + label {
-    transform: scale(1); }
 
 textarea {
   line-height: 1.6;

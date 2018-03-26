@@ -65,9 +65,9 @@ input, textarea {
     }
   }
 
-  &:placeholder-shown:not(:focus) + label {
-    transform: scale(1);
-  }
+  // &:placeholder-shown:not(:focus) + label {
+  //   transform: scale(1);
+  // }
 }
 
 textarea {
