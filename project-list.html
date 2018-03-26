@@ -1,0 +1,67 @@
+---
+layout: default
+namesp: project-list
+permalink: /projects/
+---
+
+<div class="filter-select-wrapper">
+  <div class="custom-select" style="width:240px;">
+    <select class="project-filter" name="project-filter-select" id="project-filter">
+      <option value="no-filter" selected>
+        {% translate all-projects %}
+      </option>
+      <option value="set-design">
+        {% translate set-design %}
+      </option>
+      <option value="event">
+        {% translate event %}
+      </option>
+      <option value="composition">
+        {% translate composition %}
+      </option>
+    </select>
+  </div>
+</div>
+
+<div class="project-list-container">
+  {% assign project-sorted = site.project | sort: 'position' %}
+  {% for project in project-sorted %}
+  <section class="project-container wrapper {{ project.category }}">
+    <div class="title project-title">
+      <h2>{{ project.title }}</h2>
+    </div>
+    <div class="project-content">
+
+      <summary class="project-abstract">
+        <div class="project-category" category="{{ project.category }}">
+          {% translate project.category %}
+        </div>
+        <div class="description-text">
+          {%- if site.lang == "fr" -%}
+            {{ project.abstract-fr }}
+          {%- elsif site.lang == "en" -%}
+            {{ project.abstract-en }}
+          {%- endif -%}
+        </div>
+        <a class="button project-detail-button highlight-on-click">
+          {% translate details %}
+        </a>
+      </summary>
+
+      <div class="project-cover-images">
+
+        {%- if project.cover-image-2 -%}
+          <div class="cover-img-container cover-img-pair" style="background-image: url({{ site.baseurl_root }}/{{ project.cover-image }});"></div>
+          <div class="cover-img-container cover-img-pair" style="background-image: url({{ site.baseurl_root }}/{{ project.cover-image-2 }});"></div>
+        {%- else -%}
+          <div class="cover-img-container cover-img-single" style="background-image: url({{ site.baseurl_root }}/{{ project.cover-image }});"></div>
+        {%- endif -%}
+      </div>
+
+    </div>
+  </section>
+  {% endfor %}
+</div>
+
+<script src="{{ site.baseurl_root }}/assets/js/select.js"></script>
+<script src="{{ site.baseurl_root }}/assets/js/project-filter.js"></script>

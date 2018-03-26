@@ -3,7 +3,20 @@ title: Fabien Joly - Haute fleuristerie
 email: contact@fabien-joly.com
 description: FJ site description
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site - used for feed.xml
+url: "https://fabien-joly.com"
+
+collections:
+  project:
+    output: true
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-multiple-languages-plugin
+  # - jekyll-livereload
+
+languages: ["fr", "en"]
+exclude_from_localizations: ["assets"]
+
+livereload: true

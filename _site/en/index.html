@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fabien Joly - Haute fleuristerie</title>
+  <meta name="description" content="FJ site description">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/en/">
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+
+  <body>
+
+    <!-- <div class="main-container">
+      <div class="home-container">
+        <div class="home-title">
+          <h1>Fabien Joly</h1>
+          <span>Haute Fleuristerie</span>
+        </div><a href="/en/projects/" class="home-logo">
+          <img src="/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+        </a><div class="home-lang-select">
+          <a href="/projects/">fr</a> / <a href="/en/projects/">en</a>
+        </div>
+      </div>
+    </div> -->
+
+    <span class="home-logo">
+      <img src="/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+    </span>
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
+  </body>
+
+</html>

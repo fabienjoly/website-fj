@@ -19,17 +19,16 @@ description-fr: >-
 
 
   Son savoir-faire est pluriel. Les fleurs ne sont pas simplement fleurs, elles
-  sont aussi robes, bijoux ou accessoires. Elles racontent une histoire… 
+  sont aussi robes, bijoux ou accessoires. Elles racontent une histoire…
 
 
   Devenu en l’espace de quelques années une référence et l’une des fortes
   personnalités du monde floral, Fabien Joly collabore avec de grandes maisons
   de luxe internationales comme Givenchy, Louis Vuitton, Hermès, Nina Ricci,
-  Alexander Mc Queen, Sonia Rykiel et Maison Francis Kurkdjian. 
+  Alexander Mc Queen, Sonia Rykiel et Maison Francis Kurkdjian.
 
 
   Fabien Joly définit son travail comme un art en privilégiant l’esthétique
   et participe, avec succès, à la richesse de la création parisienne.
 description-en: english description
 ---
-

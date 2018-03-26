@@ -5,12 +5,16 @@
 
   <body>
 
-    {% include header.html %}
+    {% include menu.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="scale-animation-container">
+
+      {% include header.html %}
+
+      <div class="main-container">
         {{ content }}
       </div>
+
     </div>
 
     {% include footer.html %}

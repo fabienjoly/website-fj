@@ -1,0 +1,16 @@
+global:
+  tagline: English
+  about: About
+langs:
+  fr: Français
+  en: English
+pages:
+  about: About
+  contact: Contact
+  projects: Projects
+
+all-projects: All projects
+set-design: Set design
+event: Event
+composition: Floral composition
+details: Details

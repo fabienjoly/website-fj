@@ -1,20 +1,42 @@
 backend:
-  name: git-gateway
-  branch: master
+  name:        git-gateway
+  branch:      master
 
-media_folder: "assets/uploads" # Folder where user uploaded files should go
+media_folder:  "assets/uploads"
 
-collections: # A list of collections the CMS should be able to edit
-  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "_posts" # The path to the folder where the documents are stored
-    sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
-      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Categories", name: "categories", widget: "string"}
-    meta: # Meta data fields. Just like fields, but without any preview element
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+collections:
+  - name:      "project"
+    label:     "Project"
+    folder:    "_project"
+    sort:      "position:asc"
+    create:    true
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
+      - {label: "Titre du projet", name: "title", widget: "string"}
+      - {label: "Catégorie", name: "category", widget: "select", options: ["set-design", "event", "composition"]}
+      - {label: "Position", name: "position", widget: "number", valueType: "int"}
+      - {label: "Image de couverture", name: "cover-image", widget "image"}
+      - {label: "Image de couverture 2 (optionnelle)", name: "cover-image-2", widget "image"}
+      - {label: "Extrait français", name: "abstract-fr", widget: "markdown"}
+      - {label: "Extrait anglais", name: "abstract-en", widget: "markdown"}
+      - {label: "Description française", name: "description-fr", widget: "markdown"}
+      - {label: "Description anglaise", name: "description-en", widget: "markdown"}
+      - label: "Project images"
+        name: "project-images"
+        widget: "list"
+        fields:
+          - {label: "Image", name: "image", widget: "image"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "About page"
+        name: "about"
+        file: "pages/about.md"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
+          - {label: "Namespace", name: "namespace", widget: "hidden", default: "about"}
+          - {label: "Permalink fr", name: "permalink", widget: "hidden", default: "/a-propos/"}
+          - {label: "Permalink en", name: "permalink_en", widget: "hidden", default: "/about/"}
+          - {label: "Image à-propos", name: "image-about", widget: "image"}
+          - {label: "Description fr", name: "description-fr", widget: "markdown"}
+          - {label: "Description en", name: "description-en", widget: "markdown"}

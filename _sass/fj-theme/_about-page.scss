@@ -1,0 +1,20 @@
+.about-title {
+  text-align: center;
+  margin: $spacing-unit 0 $spacing-unit;
+  font-size: $title-small-size;
+}
+
+.about-wrapper {
+  max-width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.about-photo, .about-description {
+  width: 48%;
+}
+
+.about-photo img {
+  width: 100%;
+}

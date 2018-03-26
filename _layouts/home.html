@@ -5,10 +5,30 @@
 
   <body>
 
-    <div class="coming-soon">
-      <img class="coming-soon-logo" src="assets/uploads/fj-logo.svg"/>
-      <p class="coming-soon-text">coming soon</p>
-    </div>
+    <!-- <div class="main-container">
+      <div class="home-container">
+        <div class="home-title">
+          <h1>Fabien Joly</h1>
+          <span>Haute Fleuristerie</span>
+        </div>
+        {%- if site.lang == "fr" -%}
+        <a href="{{ site.baseurl_root }}/projects/" class="home-logo">
+          <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+        </a>
+        {%- elsif site.lang == "en" -%}
+        <a href="{{ site.baseurl_root }}/en/projects/" class="home-logo">
+          <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+        </a>
+        {%- endif -%}
+        <div class="home-lang-select">
+          <a href="{{ site.baseurl_root }}/projects/">fr</a> / <a href="{{ site.baseurl_root }}/en/projects/">en</a>
+        </div>
+      </div>
+    </div> -->
+
+    <span class="home-logo">
+      <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+    </span>
 
     <script>
       if (window.netlifyIdentity) {

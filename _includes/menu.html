@@ -1,0 +1,52 @@
+<div class="menu-toggler">
+  <span class="trigger-bg"></span>
+  <span class="menu-closed-icon"></span>
+  <span class="menu-opened-icon"></span>
+</div>
+
+<div class="menu-container">
+
+  <div class="menu-cache"></div>
+
+  <menu class="menu">
+
+    <div class="menu-top-container">
+      <a href="{{ site.baseurl }}" class="menu-logo-container">
+        <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+      </a>
+    </div>
+
+    <div class="menu-main-links">
+      <div class="menu-link-container first">
+        <a class="menu-link"
+           href="{{ site.baseurl }}/projects/"
+           tabindex="-1">
+           {% translate pages.projects %}
+        </a><br>
+      </div>
+      <div class="menu-link-container second">
+        <a class="menu-link"
+           href="{{ site.baseurl }}/about/"
+           tabindex="-1">
+           {% translate pages.about %}
+        </a><br>
+      </div>
+      <div class="menu-link-container third">
+        <a class="menu-link"
+           href="{{ site.baseurl }}/contact/"
+           tabindex="-1">
+           {% translate pages.contact %}
+        </a><br>
+      </div>
+    </div>
+
+    <div class="menu-bottom-container">
+      <div class="menu-social">
+        <a target="_blank" href="https://www.instagram.com/fabien_joly_designfloral/">Instagram</a>
+        <a target="_blank" href="https://www.facebook.com/Fabienjolyartisanfleuriste/">Facebook</a>
+        <a target="_blank" href="https://www.artlistparis.com/set-design/fabien-joly">Artlist</a>
+      </div>
+    </div>
+
+  </menu>
+</div>

@@ -1,0 +1,16 @@
+global:
+  tagline: Français
+  about: À propos
+langs:
+  fr: Français
+  en: English
+pages:
+  about: À propos
+  contact: Contact
+  projects: Réalisations
+
+all-projects: Toutes les réalisations
+set-design: Set design
+event: Événement
+composition: Composition florale
+details: Détails
