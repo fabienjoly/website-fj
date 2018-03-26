@@ -1,7 +1,7 @@
 <footer class="site-footer">
 
   {% if site.lang == "fr" %}
-    <a href="{{ site.baseurl_root }}en{{ page.permalink }}" >{% t langs.en %}</a>
+    <a href="{{ site.baseurl_root }}/en{{ page.permalink }}" >{% t langs.en %}</a>
   {% elsif site.lang == "en" %}
     <a href="{{ site.baseurl_root }}{{ page.permalink }}" >{% t langs.fr %}</a>
   {% endif %}

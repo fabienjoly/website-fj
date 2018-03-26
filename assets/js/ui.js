@@ -40,41 +40,28 @@ menuCache.addEventListener("click", toggleClassMenu, false);
 
 // Buttons highlight stuff
 
-var docButtons = document.getElementsByClassName("project-detail-button");
-
-function getPosition(e) {
-  var rect = e.target.getBoundingClientRect();
-  var x = e.clientX - rect.left;
-  var y = e.clientY - rect.top;
-  return {
-    x,
-    y
-  }
-}
-
+var highlightButtons = document.getElementsByClassName("highlight-on-click");
 
 function setHighlightPosition(e) {
-	var position = getPosition(e);
-	console.log(position);
+
+	var rect = e.target.getBoundingClientRect();
+  var x = e.clientX - rect.left;
+  var y = e.clientY - rect.top;
+
 	var createHighlight = document.createElement("span");
 	createHighlight.classList.add("button-click-highlight");
-	createHighlight.style.top = position.y - 15 + "px";
-	createHighlight.style.left = position.x - 15 + "px";
+	createHighlight.style.top = y - 30 + "px";
+	createHighlight.style.left = x - 30 + "px";
 	this.appendChild(createHighlight);
 
 	setTimeout(function(){
 		createHighlight.remove();
   }, 600);
 
-
-	// buttonHighlight.classList.add("animated");
-  // setTimeout(function(){
-  //   buttonHighlight.classList.remove("animated");
-  // }, 600);
 }
 
-for (var i = 0; i < docButtons.length; i++) {
-	docButtons[i].addEventListener("click", setHighlightPosition, false);
+for (var i = 0; i < highlightButtons.length; i++) {
+	highlightButtons[i].addEventListener("click", setHighlightPosition, false);
 }
 
 

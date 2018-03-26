@@ -67,25 +67,36 @@
   display: inline-block;
   text-decoration: none;
   margin-top: $spacing-unit;
+}
+
+.highlight-on-click {
+  position: relative;
   overflow: hidden;
 
-  .button-click-highlight {
-    display: block;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: white;
-    opacity: 0.5;
-    top: 0;
-    left: 0;
-    animation: btn-highlight 0.65s;
+  * {
+    position: relative;
+    z-index: 10;
   }
+}
+
+.button-click-highlight {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: $light-grey;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  animation: btn-highlight 0.65s;
+  pointer-events: none;
 }
 
 @keyframes btn-highlight {
   0% {
-    opacity: 0.5;
+    opacity: 0.65;
     transform: scale(0);
   }
 
@@ -94,5 +105,3 @@
     transform: scale(3);
   }
 }
-
-.project-list-container {}
