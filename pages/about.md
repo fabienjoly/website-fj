@@ -9,6 +9,8 @@ description-fr: >-
   monde de la fleur.
 
 
+
+
   Titulaire d’une maîtrise de sociologie, il se destine à l’enseignement. Mais
   arrivé à Paris, Fabien se découvre une passion pour les fleurs.
 
