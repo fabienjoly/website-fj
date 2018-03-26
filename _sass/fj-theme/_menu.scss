@@ -265,6 +265,11 @@
   line-height: $title-font-size/2;
   transition: opacity 0.22s;
 
+  @include media-query($phone) {
+    font-size: $title-small-size*0.65;
+    line-height: $title-small-size;
+  }
+
   &::before {
     content: "";
     display: block;
@@ -320,6 +325,10 @@
   opacity: 0;
   // will-change: transform, opacity;
   transition: transform 0s 0.5s, opacity 0s 0.5s;
+
+  @include media-query($phone) {
+    margin: 0 0 $spacing-unit;
+  }
 
   &:last-child {
     margin: 0;

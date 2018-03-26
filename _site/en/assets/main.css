@@ -726,6 +726,11 @@ button, .button {
   text-decoration: none;
   line-height: 43px;
   transition: opacity 0.22s; }
+  @media screen and (max-width: 720px) {
+    .menu-link-container a,
+    .menu-link-container a:visited {
+      font-size: 27.95px;
+      line-height: 43px; } }
   .menu-link-container a::before,
   .menu-link-container a:visited::before {
     content: "";
@@ -771,6 +776,9 @@ button, .button {
   transform: translateX(120px);
   opacity: 0;
   transition: transform 0s 0.5s, opacity 0s 0.5s; }
+  @media screen and (max-width: 720px) {
+    .menu-link-container {
+      margin: 0 0 20px; } }
   .menu-link-container:last-child {
     margin: 0; }
 
