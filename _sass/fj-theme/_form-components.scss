@@ -65,9 +65,9 @@ input, textarea {
     }
   }
 
-  // &:placeholder-shown:not(:focus) + label {
-  //   transform: scale(1);
-  // }
+  &:placeholder-shown:not(:focus) + label {
+    transform: scale(1);
+  }
 }
 
 textarea {
@@ -79,7 +79,6 @@ textarea {
 
 input {
   height: 60px;
-  line-height: 90px;
   padding: 25px 20px 5px;
 }
 
