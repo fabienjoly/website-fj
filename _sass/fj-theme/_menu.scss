@@ -9,6 +9,15 @@
   cursor: pointer;
   transition: transform 0.4s;
 
+  &.menu-visible {
+    transform: rotate(-45deg);
+  }
+
+  @include media-query($phone) {
+    top: $spacing-unit*2.2;
+    right: $spacing-unit*1.5;
+  }
+
   .trigger-bg {
     position: absolute;
     z-index: 5;
@@ -19,10 +28,22 @@
     border-radius: 50%;
     background-color: $light-grey;
     transform: scale(0);
+
+    @include media-query($phone) {
+      background-color: white;
+      transform: scale(1);
+    }
   }
 
   &:hover .trigger-bg {
     transform: scale(1);
+  }
+
+  @include media-query($phone){
+
+    &:active .trigger-bg {
+      background-color: $light-grey;
+    }
   }
 
   .menu-closed-icon {
@@ -56,6 +77,14 @@
     }
   }
 
+  &.menu-visible {
+    .menu-closed-icon::before,
+    .menu-closed-icon::after {
+      transform: scaleX(0);
+      transition: transform 0.3s 0s;
+    }
+  }
+
   .menu-opened-icon {
     position: absolute;
     z-index: 10;
@@ -69,19 +98,65 @@
   }
 
   &.menu-visible {
-    transform: rotate(-45deg);
-
-    .menu-closed-icon::before,
-    .menu-closed-icon::after {
-      transform: scaleX(0);
-      transition: transform 0.3s 0s;
-    }
-
     .menu-opened-icon {
       transition: transform 0.3s 0.1s;
       transform: scaleY(1);
     }
   }
+}
+
+.menu-toggler-hint {
+  position: fixed;
+  color: $text-grey;
+  z-index: 15;
+  top: $spacing-unit*4;
+  right: $spacing-unit;
+  width: 61px;
+  height: 21px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: transform 0.2s, opacity 0.2s;
+
+  @include media-query($phone){
+    display: none;
+  }
+
+  .hint-close,
+  .hint-menu {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: transform 0.2s, opacity 0.2s;
+  }
+}
+
+.menu-toggler:hover + .menu-toggler-hint {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.menu-toggler + .menu-toggler-hint .hint-close {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.menu-toggler + .menu-toggler-hint .hint-menu {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.menu-toggler.menu-visible + .menu-toggler-hint .hint-close {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.menu-toggler.menu-visible + .menu-toggler-hint .hint-menu {
+  opacity: 0;
+  transform: translateX(-20px);
 }
 
 .menu-container {
@@ -98,6 +173,13 @@
 
   &.menu-visible {
     pointer-events: all;
+  }
+
+  @include media-query($phone) {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
   }
 }
 
@@ -131,6 +213,10 @@
   box-shadow: 0px 0px 50px rgba(#000, 0.2);
   transform: translateX(600px);
   // will-change: transform;
+  @include media-query($phone) {
+    width: 100%;
+    padding: $spacing-unit*2;
+  }
 }
 
 .menu-visible .menu {

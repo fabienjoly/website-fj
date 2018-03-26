@@ -4,87 +4,85 @@ namesp: contact
 permalink: /contact/
 ---
 
-<h4 class="form-title">Contact</h4>
-<form name="contact"
-      class=""
-      action="{%- if site.lang == "fr" -%}
-                {% tl thank-you %}
-              {%- endif -%}
-              {%- if site.lang == "en" -%}
-                {% tl thank-you en %}
-              {%- endif -%}"
-      netlify-honeypot="bot-field"
-      netlify>
+<h1 class="title page-title">Contact</h1>
+<div class="wrapper">
+  <form name="contact"
+        class=""
+        action="thank-you"
+        netlify-honeypot="bot-field"
+        netlify>
 
-  <p class="hidden">
-    <label>Don’t fill this out: <input name="bot-field"></label>
-  </p>
+    <p class="hidden">
+      <label>Don’t fill this out: <input name="bot-field"></label>
+    </p>
 
-  <div class="input-container first-input">
-    <input id="name"
-           class=""
-           type="text"
-           name="name"
-           placeholder=" ">
-    <label for="name">
+    <div class="input-container first-input">
+      <input id="name"
+             class=""
+             type="text"
+             name="name"
+             placeholder=" ">
+      <label for="name">
+        {%- if site.lang == "fr" -%}
+          Nom
+        {%- endif -%}
+        {%- if site.lang == "en" -%}
+          Name
+        {%- endif -%}
+      </label>
+    </div>
+
+    <div class="input-container">
+      <input id="email"
+             type="email"
+             name="email"
+             placeholder=" "
+             required
+             oninvalid="this.setCustomValidity('Please enter valid email')"
+             oninput="setCustomValidity('')">
+      <label for="email">
+        {%- if site.lang == "fr" -%}
+          Adresse e-mail
+        {%- endif -%}
+        {%- if site.lang == "en" -%}
+          E-mail address
+        {%- endif -%}
+      </label>
+    </div>
+
+    <div class="input-container">
+      <input id="subject"
+             type="text"
+             name="subject"
+             placeholder=" ">
+      <label for="subject">
+        {%- if site.lang == "fr" -%}
+          Sujet
+        {%- endif -%}
+        {%- if site.lang == "en" -%}
+          Subject
+        {%- endif -%}
+      </label>
+    </div>
+
+    <div class="input-container textarea">
+      <textarea id="message-content"
+                name="message-content"
+                placeholder=" "
+                required></textarea>
+      <label for="message-content">
+        Message
+      </label>
+    </div>
+
+    <button type="submit">
       {%- if site.lang == "fr" -%}
-        Nom
+        Envoyer
       {%- endif -%}
       {%- if site.lang == "en" -%}
-        Name
+        Send
       {%- endif -%}
-    </label>
-  </div>
+    </button>
+  </form>
 
-  <div class="input-container">
-    <input id="email"
-           type="email"
-           name="email"
-           placeholder=" "
-           required
-           oninvalid="this.setCustomValidity('Please enter valid email')"
-           oninput="setCustomValidity('')">
-    <label for="email">
-      {%- if site.lang == "fr" -%}
-        Adresse e-mail
-      {%- endif -%}
-      {%- if site.lang == "en" -%}
-        E-mail address
-      {%- endif -%}
-    </label>
-  </div>
-
-  <div class="input-container">
-    <input id="subject"
-           type="text"
-           name="subject"
-           placeholder=" ">
-    <label for="subject">
-      {%- if site.lang == "fr" -%}
-        Sujet
-      {%- endif -%}
-      {%- if site.lang == "en" -%}
-        Subject
-      {%- endif -%}
-    </label>
-  </div>
-
-  <div class="input-container textarea">
-    <textarea id="message-content"
-              name="message-content"
-              placeholder=" "
-              required></textarea>
-    <label for="message-content">
-      Message
-    </label>
-  </div>
-
-  <button type="submit">
-    {%- if site.lang == "fr" -%}
-      Envoyer
-    {%- endif -%}
-    {%- if site.lang == "en" -%}
-      Send
-    {%- endif -%}
-  </button>
-</form>
+</div>

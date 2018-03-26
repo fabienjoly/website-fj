@@ -1,5 +1,24 @@
+.project-container {
+  margin-bottom: $spacing-unit*8;
+
+  @include media-query($phone) {
+    margin-bottom: $spacing-unit*2;
+  }
+}
+
 .project-title {
   margin: 0 0 $spacing-unit*1.5;
+
+  @include media-query($phone) {
+    margin: 0 0 $spacing-unit;
+  }
+
+  h2 {
+    @include media-query($phone){
+      font-size: $title-small-size*0.65;
+      line-height: 1;
+    }
+  }
 }
 
 .project-container:nth-child(odd) .project-title {
@@ -8,6 +27,10 @@
 
 .project-container:nth-child(even) .project-title {
   text-align: right;
+
+  @include media-query($phone) {
+    text-align: left;
+  }
 }
 
 
@@ -16,26 +39,67 @@
 }
 .project-container:nth-child(odd) .project-content {
   flex-direction: row;
+  @include media-query($phone) {
+    flex-direction: column-reverse;
+  }
 }
 .project-container:nth-child(even) .project-content {
   flex-direction: row-reverse;
+  @include media-query($phone) {
+    flex-direction: column-reverse;
+  }
 }
 
 
 .project-abstract {
   width: 30%;
+
+  @include media-query($phone) {
+    width: 100%;
+    margin-top: $spacing-unit;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+  }
 }
 .project-container:nth-child(odd) .project-abstract {
   padding: 0 $spacing-unit*2 0 0;
+
+  @include media-query($phone) {
+    padding: 0;
+  }
 }
 .project-container:nth-child(even) .project-abstract {
   padding: 0 0 0 $spacing-unit*2;
+
+  @include media-query($phone) {
+    padding: 0;
+  }
 }
 
+.description-text {
+  @include media-query($phone) {
+    display: none;
+  }
+}
 
 .project-category {
-  color: rgba($text-dark, 0.5);
+  color: $text-grey;
   margin: -5px 0 5px;
+
+  @include media-query($phone) {
+    margin: 0px;
+  }
+
+  // Use this for project date or something
+  .category-title {
+    display: none;
+
+    @include media-query($phone) {
+      display: block;
+      color: $text-grey;
+    }
+  }
 }
 
 
@@ -44,6 +108,11 @@
   height: 600px;
   display: flex;
   justify-content: space-between;
+
+  @include media-query($phone) {
+    width: 100%;
+    height: 200px;
+  }
 
   .cover-img-container {
     display: block;
@@ -64,9 +133,11 @@
 
 .project-detail-button {
   position: relative;
-  display: inline-block;
-  text-decoration: none;
   margin-top: $spacing-unit;
+
+  @include media-query($phone) {
+    margin: 0px;
+  }
 }
 
 .highlight-on-click {

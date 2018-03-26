@@ -18,10 +18,16 @@
 
   <body>
 
-    <div class="menu-toggler">
+    
+
+<div class="menu-toggler">
   <span class="trigger-bg"></span>
   <span class="menu-closed-icon"></span>
   <span class="menu-opened-icon"></span>
+</div>
+<div class="menu-toggler-hint">
+  <span class="hint-menu">Menu</span>
+  <span class="hint-close">Close</span>
 </div>
 
 <div class="menu-container">
@@ -125,69 +131,72 @@
 
 
       <div class="main-container">
-        <h4 class="form-title">Contact</h4>
-<form name="contact"
-      class=""
-      action="/en/thank-you/"
-      netlify-honeypot="bot-field"
-      netlify>
+        <h1 class="title page-title">Contact</h1>
+<div class="wrapper">
+  <form name="contact"
+        class=""
+        action="thank-you"
+        netlify-honeypot="bot-field"
+        netlify>
 
-  <p class="hidden">
-    <label>Don’t fill this out: <input name="bot-field"></label>
-  </p>
+    <p class="hidden">
+      <label>Don’t fill this out: <input name="bot-field"></label>
+    </p>
 
-  <div class="input-container first-input">
-    <input id="name"
-           class=""
-           type="text"
-           name="name"
-           placeholder=" ">
-    <label for="name">Name</label>
-  </div>
+    <div class="input-container first-input">
+      <input id="name"
+             class=""
+             type="text"
+             name="name"
+             placeholder=" ">
+      <label for="name">Name</label>
+    </div>
 
-  <div class="input-container">
-    <input id="email"
-           type="email"
-           name="email"
-           placeholder=" "
-           required
-           oninvalid="this.setCustomValidity('Please enter valid email')"
-           oninput="setCustomValidity('')">
-    <label for="email">E-mail address</label>
-  </div>
+    <div class="input-container">
+      <input id="email"
+             type="email"
+             name="email"
+             placeholder=" "
+             required
+             oninvalid="this.setCustomValidity('Please enter valid email')"
+             oninput="setCustomValidity('')">
+      <label for="email">E-mail address</label>
+    </div>
 
-  <div class="input-container">
-    <input id="subject"
-           type="text"
-           name="subject"
-           placeholder=" ">
-    <label for="subject">Subject</label>
-  </div>
+    <div class="input-container">
+      <input id="subject"
+             type="text"
+             name="subject"
+             placeholder=" ">
+      <label for="subject">Subject</label>
+    </div>
 
-  <div class="input-container textarea">
-    <textarea id="message-content"
-              name="message-content"
-              placeholder=" "
-              required></textarea>
-    <label for="message-content">
-      Message
-    </label>
-  </div>
+    <div class="input-container textarea">
+      <textarea id="message-content"
+                name="message-content"
+                placeholder=" "
+                required></textarea>
+      <label for="message-content">
+        Message
+      </label>
+    </div>
 
-  <button type="submit">Send</button>
-</form>
+    <button type="submit">Send</button>
+  </form>
+
+</div>
 
       </div>
 
     </div>
 
-    <footer class="site-footer">
+    <!-- <footer class="site-footer">
 
   
     <a href="/contact/" >Français</a>
   
 
-</footer>
+</footer> -->
 
 <script src="/assets/js/ui.js"></script>
 

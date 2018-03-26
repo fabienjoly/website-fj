@@ -1,24 +1,19 @@
 ---
-layout: default
+layout: simple
 ---
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+<div class="wrapper nf-wrapper">
+  <h1><b>404</b></h1>
 
-<div class="container">
-  <h1>404</h1>
+  {%- if site.lang == "fr" -%}
+  Page introuvable ¯\_(ツ)_/¯<br>
+  La page demandée n'est pas accessible ou n'existe pas.<br>
+    <a href="{{ site.baseurl_root }}/projects/" class="button">Retourner à l'accueil</a>
+  {%- endif -%}
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  {%- if site.lang == "en" -%}
+    Page not found ¯\_(ツ)_/¯<br>
+    The requested page could not be found.<br>
+    <a href="{{ site.baseurl_root }}/en/projects/" class="button">Back home</a>
+  {%- endif -%}
 </div>

@@ -37,7 +37,7 @@ a, a:visited, a:hover {
 }
 
 .main-container {
-  padding: $spacing-unit*2 0;
+  padding-bottom: $spacing-unit*2;
 }
 
 .hidden {
@@ -55,16 +55,52 @@ a, a:visited, a:hover {
   line-height: $title-line-height;
 }
 
-.wrapper {
-  width: 100%;
-  padding: $spacing-unit*2 $spacing-unit*5 $spacing-unit*6;
-  margin: 0 auto;
+.page-title {
+  text-align: center;
+  font-size: $title-small-size;
+  margin: $spacing-unit 0 $spacing-unit*3;
 
-  @include media-query($laptop) {
-    padding: $spacing-unit*2 $spacing-unit*3 $spacing-unit*6;
+  @include media-query($phone) {
+    // position: absolute;
+    text-align: left;
+    margin: 0;
+    padding: $spacing-unit*2 $spacing-unit;
   }
 }
 
+.wrapper {
+  width: 100%;
+  padding: 0 $spacing-unit*5;
+  margin: 0 auto;
+
+  @include media-query($laptop) {
+    padding: 0 $spacing-unit*3 0;
+  }
+
+  @include media-query($phone) {
+    padding: 0 $spacing-unit;
+  }
+}
+
+.thank-you-wrapper,
+.nf-wrapper {
+  max-width: 700px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  .button {
+    margin-top: $spacing-unit*2;
+  }
+
+  .thank-you-logo {
+    height: 110px;
+    margin-bottom: $spacing-unit*2;
+  }
+}
 
 .coming-soon {
   display: flex;

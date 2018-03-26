@@ -4,6 +4,8 @@ namesp: project-list
 permalink: /projects/
 ---
 
+<h1 class="title project-list-title page-title">{% translate projects %}</h1>
+
 <div class="filter-select-wrapper">
   <div class="custom-select" style="width:240px;">
     <select class="project-filter" name="project-filter-select" id="project-filter">
@@ -34,6 +36,7 @@ permalink: /projects/
 
       <summary class="project-abstract">
         <div class="project-category" category="{{ project.category }}">
+          <!-- <span class="category-title">{% translate project-type %}<br></span> -->
           {% translate project.category %}
         </div>
         <div class="description-text">

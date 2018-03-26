@@ -9,6 +9,9 @@ pages:
   contact: Contact
   projects: Projects
 
+close: Close
+projects: Projects
+project-type: Project type
 all-projects: All projects
 set-design: Set design
 event: Event

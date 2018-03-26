@@ -1,16 +1,18 @@
 ---
-layout: default
-
-namespace: thank-you
-
-permalink: /merci/
-permalink_en: /thank-you/
+layout: simple
+permalink: /thank-you/
 ---
 
-{%- if site.lang == "fr" -%}
-  Merci mec!
-{%- endif -%}
+<div class="wrapper thank-you-wrapper">
+  <img class="thank-you-logo" src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
 
-{%- if site.lang == "en" -%}
-  Thanks bro!
-{%- endif -%}
+  {%- if site.lang == "fr" -%}
+    Votre message a bien été envoyé, nous traiterons votre demande et vous répondrons dans les plus brefs délais.<br>
+    <a href="{{ site.baseurl_root }}/projects/" class="button">Retourner à l'accueil</a>
+  {%- endif -%}
+
+  {%- if site.lang == "en" -%}
+    Your message was sent succesfully, we will process your request and get back to you shortly.<br>
+    <a href="{{ site.baseurl_root }}/en/projects/" class="button">Back home</a>
+  {%- endif -%}
+</div>
