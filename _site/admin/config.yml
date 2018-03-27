@@ -34,9 +34,8 @@ collections:
         file: "pages/about.md"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "about"}
-          - {label: "Namespace", name: "namespace", widget: "hidden", default: "about"}
-          - {label: "Permalink fr", name: "permalink", widget: "hidden", default: "/a-propos/"}
-          - {label: "Permalink en", name: "permalink_en", widget: "hidden", default: "/about/"}
+          - {label: "Namesp", name: "namesp", widget: "hidden", default: "about"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/about/"}
           - {label: "Image à-propos", name: "image-about", widget: "image"}
           - {label: "Description fr", name: "description-fr", widget: "markdown"}
           - {label: "Description en", name: "description-en", widget: "markdown"}

@@ -16,11 +16,13 @@ function toggleClassMenu() {
 		menuCache.classList.add("active");
 		pageBody.classList.add("scroll-locked");
 		menuToggler.classList.add("menu-visible");
+		document.ontouchmove = function(e){ e.preventDefault(); }
 	} else {
 		menuContainer.classList.remove('menu-visible');
 		menuCache.classList.remove("active");
 		pageBody.classList.remove("scroll-locked");
 		menuToggler.classList.remove("menu-visible");
+		document.ontouchmove = function(e){ return true; }
 	}
 }
 
@@ -36,6 +38,12 @@ var pageBody = document.body;
 menuContainer.addEventListener("transitionend", OnTransitionEnd, false);
 menuToggler.addEventListener("click", toggleClassMenu, false);
 menuCache.addEventListener("click", toggleClassMenu, false);
+// menuLink.addEventListener("click", toggleClassMenu, false);
+
+var menuLink = document.getElementsByClassName("menu-link");
+for (var i = 0; i < menuLink.length; i++) {
+	menuLink[i].addEventListener("click", toggleClassMenu, false);
+}
 
 
 // Buttons highlight stuff

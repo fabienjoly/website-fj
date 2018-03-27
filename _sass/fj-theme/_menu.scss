@@ -111,6 +111,7 @@
   z-index: 15;
   top: $spacing-unit*4;
   right: $spacing-unit;
+  font-size: $text-small-size;
   width: 61px;
   height: 21px;
   text-align: center;
@@ -215,7 +216,8 @@
   // will-change: transform;
   @include media-query($phone) {
     width: 100%;
-    padding: $spacing-unit*2;
+    transform: translateX(110%);
+    padding: $spacing-unit*2 $spacing-unit*2 $spacing-unit;
   }
 }
 
@@ -231,8 +233,8 @@
 
 .scale-animation-container {
   opacity: 1;
-  // will-change: transform;
-  // transition: transform 0.5s, opacity 0.5s;
+  transform: perspective(500px) translateZ(0px);
+  transition: transform 0.5s, opacity 0.5s;
 }
 
 .menu-visible + .scale-animation-container {
@@ -267,7 +269,7 @@
 
   @include media-query($phone) {
     font-size: $title-small-size*0.65;
-    line-height: $title-small-size;
+    line-height: $title-small-size*0.8;
   }
 
   &::before {
@@ -282,7 +284,11 @@
     transform-origin: left;
     transform: scaleX(0.5) translateX(-50px);
     transition: transform 0.22s, opacity 0.22s;
-    opacity: 0
+    opacity: 0;
+
+    @include media-query($phone) {
+      top: 12px;
+    }
   }
 
   &:hover {

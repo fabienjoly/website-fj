@@ -1,7 +1,7 @@
 form {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto $spacing-unit*8;
+  margin: 0 auto $spacing-unit*6;
   @include flexbox;
   flex-direction: column;
   justify-content: flex-start;
@@ -93,7 +93,6 @@ button, .button {
   -webkit-appearance: none;
   font-family: $text-font;
   font-size: $text-font-size;
-  color: $text-dark;
   background-color: $bg-dark;
   border-radius: 3px;
   border: none;

@@ -268,10 +268,44 @@ body {
   margin: 40px 0 0;
   color: #a4a4a4; }
 
+.highlight-on-click {
+  position: relative;
+  overflow: hidden; }
+  .highlight-on-click * {
+    position: relative;
+    z-index: 10; }
+
+.button-click-highlight {
+  display: block;
+  position: absolute;
+  z-index: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  animation: btn-highlight 0.65s cubic-bezier(0, 0, 0.4, 1);
+  pointer-events: none; }
+
+.light-highlight .button-click-highlight {
+  background-color: white; }
+
+.dark-highlight .button-click-highlight {
+  background-color: #919191; }
+
+@keyframes btn-highlight {
+  0% {
+    opacity: 0.65;
+    transform: scale(0); }
+  100% {
+    opacity: 0;
+    transform: scale(3); } }
 form {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto 160px;
+  margin: 0 auto 120px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -346,7 +380,6 @@ button, .button {
   -webkit-appearance: none;
   font-family: "MaisonNeue", Helvetica, Arial, sans-serif;
   font-size: 18px;
-  color: #1C1C1C;
   background-color: #292828;
   border-radius: 3px;
   border: none;
@@ -366,7 +399,8 @@ button, .button {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: 40px; }
+  margin-top: -10px;
+  margin-bottom: 60px; }
 
 .custom-select {
   position: relative; }
@@ -598,6 +632,7 @@ button, .button {
   z-index: 15;
   top: 80px;
   right: 20px;
+  font-size: 16px;
   width: 61px;
   height: 21px;
   text-align: center;
@@ -694,7 +729,8 @@ button, .button {
   @media screen and (max-width: 720px) {
     .menu {
       width: 100%;
-      padding: 40px; } }
+      transform: translateX(110%);
+      padding: 40px 40px 20px; } }
 
 .menu-visible .menu {
   transform: translateX(0); }
@@ -703,7 +739,9 @@ button, .button {
   transition: transform 0.5s; }
 
 .scale-animation-container {
-  opacity: 1; }
+  opacity: 1;
+  transform: perspective(500px) translateZ(0px);
+  transition: transform 0.5s, opacity 0.5s; }
 
 .menu-visible + .scale-animation-container {
   transform: perspective(500px) translateZ(-100px);
@@ -730,7 +768,7 @@ button, .button {
     .menu-link-container a,
     .menu-link-container a:visited {
       font-size: 27.95px;
-      line-height: 43px; } }
+      line-height: 34.4px; } }
   .menu-link-container a::before,
   .menu-link-container a:visited::before {
     content: "";
@@ -745,6 +783,10 @@ button, .button {
     transform: scaleX(0.5) translateX(-50px);
     transition: transform 0.22s, opacity 0.22s;
     opacity: 0; }
+    @media screen and (max-width: 720px) {
+      .menu-link-container a::before,
+      .menu-link-container a:visited::before {
+        top: 12px; } }
   .menu-link-container a:hover::before,
   .menu-link-container a:visited:hover::before {
     transform: scaleX(1) translateX(0px);
@@ -903,9 +945,9 @@ button, .button {
   @media screen and (max-width: 720px) {
     .project-abstract {
       width: 100%;
-      margin-top: 20px;
-      display: flex;
-      justify-content: space-between; } }
+      margin-top: 20px; }
+      .project-abstract .button {
+        float: right; } }
 
 .project-container:nth-child(odd) .project-abstract {
   padding: 0 40px 0 0; }
@@ -924,17 +966,13 @@ button, .button {
     display: none; } }
 
 .project-category {
+  display: inline-block;
   color: #919191;
   margin: -5px 0 5px; }
   @media screen and (max-width: 720px) {
     .project-category {
+      display: inline;
       margin: 0px; } }
-  .project-category .category-title {
-    display: none; }
-    @media screen and (max-width: 720px) {
-      .project-category .category-title {
-        display: block;
-        color: #919191; } }
 
 .project-cover-images {
   width: 70%;
@@ -963,34 +1001,6 @@ button, .button {
     .project-detail-button {
       margin: 0px; } }
 
-.highlight-on-click {
-  position: relative;
-  overflow: hidden; }
-  .highlight-on-click * {
-    position: relative;
-    z-index: 10; }
-
-.button-click-highlight {
-  display: block;
-  position: absolute;
-  z-index: 0;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #f2f2f2;
-  opacity: 0.5;
-  top: 0;
-  left: 0;
-  animation: btn-highlight 0.65s;
-  pointer-events: none; }
-
-@keyframes btn-highlight {
-  0% {
-    opacity: 0.65;
-    transform: scale(0); }
-  100% {
-    opacity: 0;
-    transform: scale(3); } }
 .about-wrapper {
   max-width: 1300px;
   display: flex;

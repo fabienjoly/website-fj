@@ -3,7 +3,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-bottom: $spacing-unit*2;
+  margin-top: -$spacing-unit/2;
+  margin-bottom: $spacing-unit*3;
 }
 
 .custom-select {

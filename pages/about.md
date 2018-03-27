@@ -1,5 +1,6 @@
 ---
 layout: about
+namesp: about
 permalink: /about/
 image-about: /assets/uploads/fabien-joly-about.jpg
 description-fr: >-

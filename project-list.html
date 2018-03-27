@@ -35,10 +35,9 @@ permalink: /projects/
     <div class="project-content">
 
       <summary class="project-abstract">
-        <div class="project-category" category="{{ project.category }}">
-          <!-- <span class="category-title">{% translate project-type %}<br></span> -->
+        <span class="project-category" category="{{ project.category }}">
           {% translate project.category %}
-        </div>
+        </span>
         <div class="description-text">
           {%- if site.lang == "fr" -%}
             {{ project.abstract-fr }}
@@ -46,7 +45,7 @@ permalink: /projects/
             {{ project.abstract-en }}
           {%- endif -%}
         </div>
-        <a class="button project-detail-button highlight-on-click">
+        <a class="button project-detail-button highlight-on-click light-highlight">
           {% translate details %}
         </a>
       </summary>
