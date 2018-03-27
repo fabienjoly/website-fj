@@ -197,7 +197,10 @@ body {
   overflow: hidden; }
 
 .main-container {
-  padding-bottom: 40px; }
+  padding-bottom: 120px; }
+  @media screen and (max-width: 720px) {
+    .main-container {
+      padding-bottom: 40px; } }
 
 .hidden {
   visibility: hidden;
@@ -305,7 +308,7 @@ body {
 form {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto 120px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -314,9 +317,6 @@ form {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center; }
-  @media screen and (max-width: 720px) {
-    form {
-      margin: 0 auto; } }
 
 .input-container {
   position: relative;
@@ -394,16 +394,24 @@ button, .button {
   button:hover, .button:hover {
     transform: scale(1.05); }
 
-/*the container must be positioned relative:*/
 .filter-select-wrapper {
   width: 100%;
   display: flex;
   justify-content: center;
   margin-top: -10px;
   margin-bottom: 60px; }
+  @media screen and (max-width: 720px) {
+    .filter-select-wrapper {
+      justify-content: flex-start;
+      padding: 0px 20px;
+      margin-bottom: 40px; } }
 
+/*the container must be positioned relative:*/
 .custom-select {
   position: relative; }
+  @media screen and (max-width: 720px) {
+    .custom-select {
+      flex: 1; } }
 
 .custom-select select {
   display: none; }
@@ -901,6 +909,8 @@ button, .button {
   @media screen and (max-width: 720px) {
     .project-container {
       margin-bottom: 40px; } }
+  .project-container:last-child {
+    margin-bottom: 0; }
 
 .project-title {
   margin: 0 0 30px; }

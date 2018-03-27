@@ -1,15 +1,11 @@
 form {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto $spacing-unit*6;
+  margin: 0 auto;
   @include flexbox;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
-  @include media-query($phone) {
-    margin: 0 auto;
-  }
 }
 
 .input-container {
