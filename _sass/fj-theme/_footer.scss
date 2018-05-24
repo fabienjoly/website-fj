@@ -1,0 +1,162 @@
+.site-footer {
+  width: 100%;
+  padding: 0 $spacing-unit*5;
+
+  @include media-query($tablet) {
+    padding: 0 $spacing-unit*3;
+  }
+
+  @include media-query($phone) {
+    padding: 0 $spacing-unit;
+  }
+}
+
+.footer-inner {
+  width: 100%;
+  padding: $spacing-unit*5 0;
+  border-top: 1px solid $border-color;
+  @include flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+
+  @include media-query($tablet) {
+    padding: $spacing-unit*3 0;
+  }
+
+  @include media-query($phone) {
+    flex-direction: column;
+  }
+}
+
+.footer-left-col {
+  @include flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @include media-query($phone) {
+    flex-direction: row;
+    margin-bottom: $spacing-unit*2;
+  }
+}
+
+.footer-logo-container {
+  height: 80px;
+
+  img {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+}
+
+.footer-language a, .footer-language a:visited {
+  display: block;
+  padding: 0px 10px;
+  height: 30px;
+  line-height: 32px;
+  border-radius: 4px;
+  color: $text-dark;
+  text-decoration: none;
+  // opacity: 0.5;
+  transition: opacity 0.2s;
+  border: 1px solid $brand-color;
+
+  &:hover {
+    background-color: $brand-color;
+
+  }
+}
+
+.footer-content {
+  width: 30%;
+  @include flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  @include media-query($laptop) {
+    width: 40%;
+  }
+
+  @include media-query($tablet) {
+    width: 50%;
+  }
+
+  @include media-query($phone) {
+    width: 100%;
+  }
+}
+
+.footer-page-links {
+  @include flexbox;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  visibility: hidden;
+
+  & > * {
+    visibility: visible;
+  }
+
+  &:hover a {
+    opacity: 0.5;
+  }
+
+  .footer-link-container:not(:last-child) {
+    margin-bottom: $spacing-unit;
+  }
+
+  a, a:visited {
+    display: inline-block;
+    position: relative;
+    font-family: $title-font;
+    color: $text-dark;
+    font-size: $title-small-size*0.65;
+    line-height: $title-small-size*0.9;
+    text-decoration: none;
+    // opacity: 0.5;
+    transition: opacity 0.22s;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -45px;
+      bottom: 20px;
+      height: 1px;
+      width: 30px;
+      background-color: $brand-color;
+      transform-origin: left;
+      opacity: 0;
+      transform: scaleX(0.5) translateX(-40px);
+      transition: transform 0.2s, opacity 0.2s;
+    }
+  }
+
+  a:hover {
+    opacity: 1;
+
+    &::after {
+      opacity: 1;
+      transform: scaleX(1) translateX(0px);
+    }
+  }
+}
+
+.footer-social {
+  a, a:visited {
+    display: block;
+    color: $text-dark;
+    opacity: 0.5;
+    margin: 0 0 $spacing-unit/2;
+    text-decoration: none;
+    transition: opacity 0.22s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

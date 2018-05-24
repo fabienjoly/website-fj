@@ -1,0 +1,130 @@
+.project-page-cover {
+  display: block;
+  width: 100%;
+  height: 400px;
+  background-position: center center;
+  background-size: cover;
+
+  @include media-query($laptop) {
+    height: 300px;
+  }
+
+  @include media-query($tablet) {
+    height: 220px;
+  }
+
+  @include media-query($phone) {
+    height: 110px;
+  }
+}
+
+.project-title-desc-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.project-page-desc-container {
+  @include flexbox;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: $spacing-unit*4 0;
+
+  @include media-query($laptop) {
+    padding: $spacing-unit*2 0;
+  }
+
+  @include media-query($tablet) {
+    padding: $spacing-unit 0;
+  }
+
+  @include media-query($phone) {
+    padding: 0;
+    flex-direction: column;
+  }
+}
+
+
+.project-info-container {
+  // width: auto;
+  width: 250px;
+  padding-left: $spacing-unit*2;
+  border-left: 1px solid $border-color;
+
+  @include media-query($phone) {
+    width: 100%;
+    padding-left: $spacing-unit;
+  }
+}
+
+.project-info-title {
+  display: block;
+  width: 100%;
+  color: $text-grey;
+}
+
+.project-info {
+  display: block;
+  width: 100%;
+  // font-size: $text-font-size;
+
+  &:not(:last-child) {
+    margin-bottom: $spacing-unit;
+
+    @include media-query($phone) {
+      margin-bottom: $spacing-unit/2;
+    }
+  }
+}
+
+.project-page-description {
+  width: 70%;
+  max-width: 800px;
+  padding-right: $spacing-unit*2;
+
+  @include media-query($phone) {
+    width: 100%;
+    margin-bottom: $spacing-unit*2;
+  }
+}
+
+.project-images-container {
+  width: 100%;
+  margin: $spacing-unit*6 0;
+
+  @include media-query($tablet) {
+    margin: $spacing-unit*4 0;
+  }
+
+  @include media-query($phone) {
+    margin: $spacing-unit*2 0;
+  }
+}
+
+.image-container {
+  width: 100%;
+  max-height: 95vh;
+
+  &:not(:last-child) {
+    margin: 0 0 $spacing-unit*6;
+
+    @include media-query($tablet) {
+      margin: 0 0 $spacing-unit*4;
+    }
+
+    @include media-query($phone) {
+      margin: 0 0 $spacing-unit*2;
+    }
+  }
+
+  img {
+    display: block;
+    // height: 90vh;
+    width: auto;
+    max-width: 100%;
+    max-height: 95vh;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

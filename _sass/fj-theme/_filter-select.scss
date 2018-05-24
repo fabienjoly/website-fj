@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   margin-top: -$spacing-unit/2;
-  margin-bottom: $spacing-unit*3;
+  margin-bottom: $spacing-unit*4;
 
   @include media-query($phone) {
     justify-content: flex-start;

@@ -10,7 +10,7 @@
 .home-title {
   // margin: $spacing-unit*3 0 0;
   text-align: center;
-  animation: title-animation 4s;
+  animation: title-animation 3s;
 
   h1 {
     font-family: $title-font;
@@ -31,11 +31,15 @@
   }
 }
 
+.home-lang-select {
+  animation: title-animation 3s;
+}
+
 @keyframes title-animation {
   0% {
     opacity: 0;
   }
-  70% {
+  50% {
     opacity: 0;
   }
   100% {

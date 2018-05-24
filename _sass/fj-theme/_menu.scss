@@ -13,6 +13,11 @@
     transform: rotate(-45deg);
   }
 
+  @include media-query($tablet) {
+    top: $spacing-unit*1.5;
+    right: $spacing-unit*1.2;
+  }
+
   @include media-query($phone) {
     top: $spacing-unit*2.2;
     right: $spacing-unit*1.5;
@@ -105,9 +110,20 @@
   }
 }
 
+.project-page .menu-toggler .trigger-bg {
+  background-color: white;
+  transform: scale(1);
+}
+
+.project-page .menu-toggler:hover .trigger-bg {
+  background-color: $light-grey;
+  transform: scale(1);
+}
+
 .menu-toggler-hint {
   position: fixed;
   color: $text-grey;
+  // color: white;
   z-index: 15;
   top: $spacing-unit*4;
   right: $spacing-unit;
@@ -119,7 +135,7 @@
   transform: translateY(10px);
   transition: transform 0.2s, opacity 0.2s;
 
-  @include media-query($phone){
+  @include media-query($tablet){
     display: none;
   }
 
@@ -131,6 +147,8 @@
     right: 0;
     bottom: 0;
     left: 0;
+    background-color: white;
+    border-radius: 4px;
     transition: transform 0.2s, opacity 0.2s;
   }
 }

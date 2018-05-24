@@ -45,7 +45,12 @@ permalink: /projects/
             {{ project.abstract-en }}
           {%- endif -%}
         </div>
-        <a class="button project-detail-button highlight-on-click light-highlight">
+        <a href="{%- if site.lang == "fr" -%}
+                   {{ project.url }}
+                 {%- elsif site.lang == "en" -%}
+                   /en{{ project.url }}
+                 {%- endif -%}"
+           class="button project-detail-button highlight-on-click light-highlight">
           {% translate details %}
         </a>
       </summary>

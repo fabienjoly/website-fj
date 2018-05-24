@@ -1,11 +1,49 @@
-<!-- <footer class="site-footer">
+<footer class="site-footer">
 
-  {% if site.lang == "fr" %}
-    <a href="{{ site.baseurl_root }}/en{{ page.permalink }}" >{% t langs.en %}</a>
-  {% elsif site.lang == "en" %}
-    <a href="{{ site.baseurl_root }}{{ page.permalink }}" >{% t langs.fr %}</a>
-  {% endif %}
+  <div class="footer-inner">
 
-</footer> -->
+    <div class="footer-left-col">
+      <div class="footer-logo-container">
+        <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+      </div>
+      <div class="footer-language">
+        {% if site.lang == "fr" %}
+          <a href="{{ site.baseurl_root }}/en{{ page.permalink }}" >{% t langs.en %}</a>
+        {% elsif site.lang == "en" %}
+          <a href="{{ site.baseurl_root }}{{ page.permalink }}" >{% t langs.fr %}</a>
+        {% endif %}
+      </div>
+    </div>
 
-{% include js.html %}
+    <div class="footer-content">
+      <div class="footer-page-links">
+        <div class="footer-link-container">
+          <a href="{{ site.baseurl }}/projects/">
+             {% translate pages.projects %}
+          </a>
+        </div>
+        <div class="footer-link-container">
+          <a href="{{ site.baseurl }}/about/">
+             {% translate pages.about %}
+          </a>
+        </div>
+        <div class="footer-link-container">
+          <a href="{{ site.baseurl }}/contact/">
+             {% translate pages.contact %}
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-social">
+        <a target="_blank" href="https://www.instagram.com/fabien_joly_designfloral/" tabindex="-1">Instagram</a>
+        <a target="_blank" href="https://www.facebook.com/Fabienjolyartisanfleuriste/" tabindex="-1">Facebook</a>
+        <a target="_blank" href="https://www.artlistparis.com/set-design/fabien-joly" tabindex="-1">Artlist</a>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</footer>

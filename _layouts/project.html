@@ -1,3 +1,93 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="project-page">
+
+    {% include back-button.html %}
+    {% include menu.html %}
+
+    <div class="scale-animation-container">
+
+      <div class="main-container">
+
+        <div class="project-page-cover" style="background-image: url({{ site.baseurl_root }}{{ page.cover-image }});">
+        </div>
+
+        <div class="no-header-wrapper">
+
+          <div class="project-title-desc-container">
+
+            <div class="project-page-desc-container">
+
+              <div class="project-page-description">
+                <div class="title project-title">
+                  <h1>{{ page.title }}</h1>
+                </div>
+                {%- if site.lang == "fr" -%}
+                  {{ page.description-fr }}
+                {%- elsif site.lang == "en" -%}
+                  {{ page.description-en }}
+                {%- endif -%}
+              </div>
+
+              <div class="project-info-container">
+                <span class="project-info-title">
+                  {% translate project-type %}
+                </span>
+                <span class="project-info">
+                  {% translate page.category %}
+                </span>
+
+                <span class="project-info-title">
+                  Client
+                </span>
+                <span class="project-info">
+                  {{ page.client }}
+                </span>
+                <span class="project-info-title">
+                  {% translate year %}
+                </span>
+                <span class="project-info">
+                  {{ page.year }}
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="project-images-container">
+            {% for image-url in page.project-images %}
+            <div class="image-container">
+              <img src="{{ site.baseurl_root }}{{ image-url.image }}">
+            </div>
+            {% endfor %}
+          </div>
+
+        </div>
+
+        <!-- {% if page.previous == nil %}
+          {{ site.project.last.url }}
+        {% else %}
+          {{ page.previous.url }}
+        {% endif %}
+
+        {% if page.next == nil %}
+          {{ site.project.first.url }}
+        {% else %}
+          {{ page.next.url }}
+        {% endif %} -->
+
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+    {% include js.html %}
+
+  </body>
+
+</html>

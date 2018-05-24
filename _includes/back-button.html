@@ -1,0 +1,15 @@
+<a href="{{ site.baseurl }}/projects/" class="back-button">
+  <span class="back-button-bg"></span>
+  <span class="back-arrow-icon">
+    <img src="{{ site.baseurl_root }}/assets/images/back-arrow-icon.svg" alt="">
+  </span>
+</a>
+<div class="back-button-hint">
+  <span class="back-hint">
+    {%- if site.lang == "fr" -%}
+      Retour
+    {%- elsif site.lang == "en" -%}
+      Back
+    {%- endif -%}
+  </span>
+</div>
