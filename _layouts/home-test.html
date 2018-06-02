@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <div class="home-container">
+      <div class="animation-content-wrapper">
+        <div id="lottie-animation" class="home-animation-container"></div>
+      </div>
+      <div class="home-container">
+        <div class="home-title">
+          <h1>Fabien Joly</h1>
+          <span>Haute Fleuristerie</span>
+        </div>
+        <div class="home-lang-select">
+          <a href="{{ site.baseurl_root }}/projects/">fr</a> | <a href="{{ site.baseurl_root }}/en/projects/">en</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <span class="coming-soon">
+      <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+      <div class="coming-soon-text">
+        Coming soon
+      </div>
+    </span> -->
+
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    <script src="assets/js/lottie.js"></script>
+    <script src="assets/js/home-animation.js"></script>
+
+  </body>
+
+</html>
