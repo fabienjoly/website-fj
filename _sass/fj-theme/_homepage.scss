@@ -16,7 +16,13 @@
   }
 
   @include media-query($phone){
-    padding: $spacing-unit*0.5 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    overflow: hidden;
   }
 }
 
@@ -30,6 +36,13 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+
+  @include media-query($phone) {
+    overflow: visible;
+    width: 1200px;
+    right: auto;
+    left: auto;
+  }
 }
 
 .home-animation-container {
@@ -40,8 +53,8 @@
   }
 
   @include media-query($phone){
-    width: 300%;
-    transform: scale(2);
+    width: 900px;
+    // transform: scale(2);
   }
 }
 
