@@ -26,9 +26,17 @@
                   <h1>{{ page.title }}</h1>
                 </div>
                 {%- if site.lang == "fr" -%}
-                  {{ page.description-fr }}
+                  {% if page.description-fr %}
+                    {{ page.description-fr }}
+                  {% else %}
+                    {{ page.abstract-fr }}
+                  {% endif %}
                 {%- elsif site.lang == "en" -%}
-                  {{ page.description-en }}
+                  {% if page.description-en %}
+                    {{ page.description-en }}
+                  {% else %}
+                    {{ page.abstract-en }}
+                  {% endif %}
                 {%- endif -%}
               </div>
 
