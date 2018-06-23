@@ -8,6 +8,8 @@ position: 1
 cover-image: /assets/uploads/coppi-barbieri-1.jpg
 abstract-fr: Description courte
 abstract-en: short desc
+description-fr: Description complète
+description-en: ''
 project-images:
   - image: /assets/uploads/coppi-barbieri-1.jpg
   - image: /assets/uploads/coppi-barbieri-2.jpg
