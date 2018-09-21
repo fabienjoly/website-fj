@@ -18,11 +18,11 @@ collections:
       - {label: "Année", name: "year", widget: "string"}
       - {label: "Position", name: "position", widget: "number", valueType: "int"}
       - {label: "Image de couverture", name: "cover-image", widget: "image"}
-      - {label: "Image de couverture 2 (optionnelle)", name: "cover-image-2", widget: "image", required: "false"}
+      - {label: "Image de couverture 2 (optionnelle)", name: "cover-image-2", widget: "image", required: false}
       - {label: "Extrait français", name: "abstract-fr", widget: "markdown"}
       - {label: "Extrait anglais", name: "abstract-en", widget: "markdown"}
-      - {label: "Description française (optionnelle)", name: "description-fr", widget: "markdown", required: "false"}
-      - {label: "Description anglaise (optionnelle)", name: "description-en", widget: "markdown", required: "false"}
+      - {label: "Description française (optionnelle)", name: "description-fr", widget: "markdown", required: false}
+      - {label: "Description anglaise (optionnelle)", name: "description-en", widget: "markdown", required: false}
       - label: "Project images"
         name: "project-images"
         widget: "list"
