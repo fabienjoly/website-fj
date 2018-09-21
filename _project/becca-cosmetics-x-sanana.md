@@ -11,8 +11,8 @@ abstract-en: texte
 description-fr: texte
 description-en: texte
 project-images:
-  - image: /assets/uploads/becca2.jpg
-  - image: /assets/uploads/becca3.jpg
   - image: /assets/uploads/becca1.jpg
+  - image: /assets/uploads/becca3.jpg
+  - image: /assets/uploads/becca2.jpg
 ---
 
