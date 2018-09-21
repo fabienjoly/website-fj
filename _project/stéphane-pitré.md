@@ -4,7 +4,7 @@ title: Stéphane Pitré
 category: event
 client: client ?
 year: '2014'
-position: 1
+position: 7
 cover-image: /assets/uploads/couv-zajac.jpg
 abstract-fr: Stéphane Pitré
 abstract-en: txt
