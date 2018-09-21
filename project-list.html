@@ -58,9 +58,11 @@ permalink: /projects/
       <div class="project-cover-images">
         {%- if project.cover-image-2.size == 0 -%}
           <div class="cover-img-container cover-img-single" style="background-image: url({{ site.baseurl_root }}{{ project.cover-image }});"></div>
-        {%- else -%}
+        {%- elsif project.cover-image-2 -%}
           <div class="cover-img-container cover-img-pair" style="background-image: url({{ site.baseurl_root }}{{ project.cover-image }});"></div>
           <div class="cover-img-container cover-img-pair" style="background-image: url({{ site.baseurl_root }}{{ project.cover-image-2 }});"></div>
+        {%- else -%}
+          <div class="cover-img-container cover-img-single" style="background-image: url({{ site.baseurl_root }}{{ project.cover-image }});"></div>
         {%- endif -%}
 
       </div>
