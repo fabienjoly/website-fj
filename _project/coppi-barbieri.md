@@ -7,9 +7,36 @@ year: '2017'
 position: 1
 cover-image: /assets/uploads/test.jpg
 cover-image-2: ''
-abstract-fr: Description courte
+abstract-fr: >-
+  Toucan, lion, libellule...
+
+
+  Dans un éden luxuriant tout droit sorti du douanier Rousseau, des bijoux
+  d'exception inspirés
+
+
+  par le règne animal et végétal célèbrent un luxe fantasque. Un manifeste en
+  colorama.
 abstract-en: short desc
-description-fr: Description complète
+description-fr: >-
+  Toucan, lion, libellule...
+
+
+  Dans un éden luxuriant tout droit sorti du douanier Rousseau, des bijoux
+  d'exception inspirés
+
+
+  par le règne animal et végétal célèbrent un luxe fantasque. Un manifeste en
+  colorama.
+
+
+  Photos : Coppi Barbieri 
+
+
+  Réalisation : Sophie Vigié
+
+
+  Ambiance Florale : Fabien Joly
 description-en: ''
 project-images:
   - image: /assets/uploads/coppi1_.jpg
