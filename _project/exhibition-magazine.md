@@ -8,16 +8,9 @@ position: 1
 cover-image: /assets/uploads/couv-fashion.jpg
 abstract-fr: description rapide
 abstract-en: desc
-description-fr: |-
-  Exhibition Magazine
-
-  Photographie : Suzie & Léo
-
-  Stylisme : Belen Casadevall
-
-  Coiffure : Yuji Okuda
-
-  Make-up : Satoko Watanabe
+description-fr: >-
+  Exhibition Magazine // Photographie : Suzie & Léo // Stylisme : Belen
+  Casadevall // Coiffure : Yuji Okuda // Make-up : Satoko Watanabe
 project-images:
   - image: /assets/uploads/sw-exhibition-magazine-2018-ss-1.jpg
   - image: /assets/uploads/sw-exhibition-magazine-2018-ss-2.jpg
