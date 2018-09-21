@@ -19,15 +19,18 @@ abstract-fr: >-
   colorama.
 abstract-en: short desc
 description-fr: >-
-  Toucan, lion, libellule...
+  _Toucan, lion, libellule..._
 
 
-  Dans un éden luxuriant tout droit sorti du douanier Rousseau, des bijoux
-  d'exception inspirés
+  _Dans un éden luxuriant tout droit sorti du douanier Rousseau, des bijoux
+  d'exception inspirés_
 
 
-  par le règne animal et végétal célèbrent un luxe fantasque. Un manifeste en
-  colorama.
+  _par le règne animal et végétal célèbrent un luxe fantasque. Un manifeste en
+  colorama._
+
+
+  __
 
 
   Photos : Coppi Barbieri 
