@@ -10,9 +10,9 @@ abstract-fr: Stéphane Pitré
 abstract-en: txt
 description-fr: Stéphane Pitré
 project-images:
-  - image: /assets/uploads/visuel22.jpg
-  - image: /assets/uploads/fd-l-zajac-plat-03-1.jpg
-  - image: /assets/uploads/fd-stephane-pitré-plat-05.jpg
-  - image: /assets/uploads/fd-stephane-pitré-plat-03.jpg
+  - image: /assets/uploads/gastro-1.jpg
+  - image: /assets/uploads/gastro-2.jpg
+  - image: /assets/uploads/gastro-3.jpg
+  - image: /assets/uploads/gastro-4.jpg
 ---
 
