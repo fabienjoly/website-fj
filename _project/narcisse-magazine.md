@@ -9,6 +9,7 @@ cover-image: /assets/uploads/narcisse-couv.jpg
 abstract-fr: Fleurs de Peau
 abstract-en: Fleurs de Peau
 description-fr: Fleurs de Peau
-project-images: []
+project-images:
+  - image: /assets/uploads/narcisse-1.jpg
 ---
 
