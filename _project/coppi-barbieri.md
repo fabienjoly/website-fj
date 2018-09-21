@@ -30,9 +30,6 @@ description-fr: >-
   colorama.
 
 
-  __
-
-
   Photos : Coppi Barbieri 
 
 
