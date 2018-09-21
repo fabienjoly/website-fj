@@ -20,7 +20,6 @@ project-images:
   - image: /assets/uploads/sw-exhibition-magazine-2018-ss-5.jpg
   - image: /assets/uploads/sw-exhibition-magazine-2018-ss-7.jpg
   - image: /assets/uploads/sw-exhibition-magazine-2018-ss-8.jpg
-  - image: /assets/uploads/sw-exhibition-magazine-2018-ss-9.jpg
   - image: /assets/uploads/sw-exhibition-magazine-2018-ss-10.jpg
   - image: /assets/uploads/sw-exhibition-magazine-2018-ss-11.jpg
 ---
