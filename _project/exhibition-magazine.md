@@ -4,7 +4,7 @@ title: Exhibition Magazine
 category: set-design
 client: Exhibition Magazine
 year: '2018'
-position: 3
+position: 1
 cover-image: /assets/uploads/couv-fashion.jpg
 abstract-fr: description rapide
 abstract-en: desc
