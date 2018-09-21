@@ -5,7 +5,7 @@ category: set-design
 client: Madame Figaro
 year: '2017'
 position: 1
-cover-image: /assets/uploads/test.jpg
+cover-image: /assets/uploads/test2.jpg
 cover-image-2: ''
 abstract-fr: Description courte
 abstract-en: short desc
