@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Titre ?
+title: Paper & Flower
 category: set-design
 client: client ?
 year: '2015'
