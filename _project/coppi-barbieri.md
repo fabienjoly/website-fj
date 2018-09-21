@@ -8,29 +8,26 @@ position: 1
 cover-image: /assets/uploads/test.jpg
 cover-image-2: ''
 abstract-fr: >-
-  _Toucan, lion, libellule..._
+  Toucan, lion, libellule...
 
 
-  _Dans un éden luxuriant tout droit sorti du douanier Rousseau, des bijoux
-  d'exception inspirés_
+  Dans un éden luxuriant tout droit sorti du douanier Rousseau, des bijoux
+  d'exception inspirés
 
 
-  _par le règne animal et végétal célèbrent un luxe fantasque. Un manifeste en
-  colorama._
-
-
-  __
+  par le règne animal et végétal célèbrent un luxe fantasque. Un manifeste en
+  colorama.
 abstract-en: short desc
 description-fr: >-
-  _Toucan, lion, libellule..._
+  Toucan, lion, libellule...
 
 
-  _Dans un éden luxuriant tout droit sorti du douanier Rousseau, des bijoux
-  d'exception inspirés_
+  Dans un éden luxuriant tout droit sorti du douanier Rousseau, des bijoux
+  d'exception inspirés
 
 
-  _par le règne animal et végétal célèbrent un luxe fantasque. Un manifeste en
-  colorama._
+  par le règne animal et végétal célèbrent un luxe fantasque. Un manifeste en
+  colorama.
 
 
   __
