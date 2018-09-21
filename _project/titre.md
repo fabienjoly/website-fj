@@ -5,7 +5,7 @@ category: set-design
 client: client ?
 year: '2015'
 position: 5
-cover-image: /assets/uploads/couv-paper.jpg
+cover-image: /assets/uploads/okcouv-paper.jpg
 abstract-fr: text
 abstract-en: text
 description-fr: text
