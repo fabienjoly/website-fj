@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Coppi Barbieri
+title: Jungle Mix // Madame Figaro
 category: set-design
 client: Madame Figaro
 year: '2017'
