@@ -40,14 +40,15 @@ description-fr: >-
 description-en: ''
 project-images:
   - image: /assets/uploads/coppi1_.jpg
-  - image: /assets/uploads/coppi2_.jpg
-  - image: /assets/uploads/coppi3_.jpg
-  - image: /assets/uploads/coppi4_.jpg
-  - image: /assets/uploads/coppi5_.jpg
-  - image: /assets/uploads/coppi6_.jpg
-  - image: /assets/uploads/coppi7_.jpg
-  - image: /assets/uploads/coppi8_.jpg
   - image: /assets/uploads/coppi9_.jpg
+  - image: /assets/uploads/coppi7_.jpg
+  - image: /assets/uploads/test.jpg
+  - image: /assets/uploads/coppi8_.jpg
   - image: /assets/uploads/coppi10_.jpg
+  - image: /assets/uploads/coppi2_.jpg
+  - image: /assets/uploads/coppi5_.jpg
+  - image: /assets/uploads/coppi4_.jpg
+  - image: /assets/uploads/coppi3_.jpg
+  - image: /assets/uploads/coppi6_.jpg
 ---
 
