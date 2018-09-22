@@ -22,5 +22,6 @@ project-images:
   - image: /assets/uploads/10.jpg
   - image: /assets/uploads/11.jpg
   - image: /assets/uploads/12.jpg
+  - image: /assets/uploads/img_2823.jpg
 ---
 
