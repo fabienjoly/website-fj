@@ -5,7 +5,7 @@ category: set-design
 client: Madame Figaro
 year: '2014'
 position: 6
-cover-image: /assets/uploads/rouge.jpg
+cover-image: /assets/uploads/couvrouge.jpg
 abstract-fr: Or et diamants rivalisent de noctures éclats.
 abstract-en: Or et diamants rivalisent de noctures éclats.
 description-fr: >-
@@ -16,8 +16,8 @@ description-fr: >-
   Photographe : Gyslain Yarhi
 project-images:
   - image: /assets/uploads/rouge1.jpg
-  - image: /assets/uploads/rouge3.jpg
   - image: /assets/uploads/rouge2.jpg
+  - image: /assets/uploads/rouge3.jpg
   - image: /assets/uploads/rouge4.jpg
 ---
 
