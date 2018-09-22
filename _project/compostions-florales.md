@@ -19,7 +19,5 @@ project-images:
   - image: /assets/uploads/7.jpg
   - image: /assets/uploads/8.jpg
   - image: /assets/uploads/9.jpg
-  - image: /assets/uploads/10.jpg
-  - image: /assets/uploads/11.jpg
 ---
 
