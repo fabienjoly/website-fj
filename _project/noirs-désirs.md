@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Noirs Désirs
+title: 'Noirs Désirs // Madame Figaro '
 category: set-design
 client: Madame Figaro
 year: '2014'
@@ -14,6 +14,12 @@ description-fr: >-
 
 
   Photographe : Gyslain Yarhi
+
+
+  Réalisation : Sophie Vigié
+
+
+  Design Floral : Fabein Joly
 project-images:
   - image: /assets/uploads/rouge1.jpg
   - image: /assets/uploads/rouge2.jpg
