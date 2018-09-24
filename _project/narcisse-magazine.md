@@ -17,6 +17,18 @@ description-fr: >-
   émotion de plaisir et d'émerveillement. C'est avec la volonté d'harmoniser les
   choses que nous composons et créons nos propres images, nos sons et nos envies
   » avec Narcisse, il fait fleurir des intemporels de mode.
+
+
+  Photographe : Kourteney Roy
+
+
+  Direction artistique : Azadeh Zoraghi
+
+
+  Direction style : René Gloor
+
+
+  Design Floral : Fabien Joly
 project-images:
   - image: /assets/uploads/narcisse-0.jpg
   - image: /assets/uploads/narcisse-1.jpg
