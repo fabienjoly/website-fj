@@ -1289,6 +1289,7 @@ button, .button {
   .project-cover-images .cover-img-container {
     display: block;
     background-size: cover;
+    background-position: center;
     height: 100%; }
   .project-cover-images .cover-img-single {
     width: 100%; }
