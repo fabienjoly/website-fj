@@ -105,9 +105,17 @@
 
 .project-cover-images {
   width: 70%;
-  height: 600px;
+  height: 650px;
   display: flex;
   justify-content: space-between;
+
+  @include media-query($desktop) {
+    height: 550px;
+  }
+
+  @include media-query($laptop) {
+    height: 450px;
+  }
 
   @include media-query($phone) {
     width: 100%;

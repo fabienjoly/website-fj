@@ -1279,9 +1279,15 @@ button, .button {
 
 .project-cover-images {
   width: 70%;
-  height: 600px;
+  height: 650px;
   display: flex;
   justify-content: space-between; }
+  @media screen and (max-width: 1500px) {
+    .project-cover-images {
+      height: 550px; } }
+  @media screen and (max-width: 1280px) {
+    .project-cover-images {
+      height: 450px; } }
   @media screen and (max-width: 720px) {
     .project-cover-images {
       width: 100%;
