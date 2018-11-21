@@ -28,6 +28,14 @@ collections:
         widget: "list"
         fields:
           - {label: "Image", name: "image", widget: "image"}
+  - name:      "Compositions florales"
+    label:     "Compositions florales"
+    folder:    "_composition"
+    create:    true
+    fields:
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "date", name: "date", widget: "date"}
+      - {label: "Image", name: "image", widget: "image"}
   - name: "pages"
     label: "Pages"
     files:

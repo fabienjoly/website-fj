@@ -8,6 +8,8 @@ url: "https://fabien-joly.com"
 collections:
   project:
     output: true
+  composition:
+    output: false
 
 # Build settings
 markdown: kramdown
