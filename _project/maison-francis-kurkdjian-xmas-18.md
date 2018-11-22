@@ -9,6 +9,11 @@ cover-image: /assets/uploads/covermfk.jpg
 abstract-fr: llll
 abstract-en: mmmm
 project-images:
-  - {}
+  - image: /assets/uploads/mfk-2018-1.jpg
+  - image: /assets/uploads/mfk-2018-2.jpg
+  - image: /assets/uploads/mfk-2018-3.jpg
+  - image: /assets/uploads/mfk-2018-4.jpg
+  - image: /assets/uploads/mfk-2018-5.jpg
+  - image: /assets/uploads/mfk-2018-6.jpg
 ---
 
