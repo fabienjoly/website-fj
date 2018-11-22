@@ -10,6 +10,6 @@ abstract-fr: iii
 abstract-en: iii
 project-images:
   - image: /assets/uploads/murosesvierge.jpg
-  - {}
+  - image: /assets/uploads/alr-newyork-2.jpg
 ---
 
