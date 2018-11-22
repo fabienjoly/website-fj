@@ -9,6 +9,7 @@ cover-image: /assets/uploads/cover-alr-ny.jpg
 abstract-fr: iii
 abstract-en: iii
 project-images:
+  - image: /assets/uploads/murosesvierge.jpg
   - {}
 ---
 
