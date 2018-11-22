@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'Maison Francis Kurkdjian Xmas #18'
+title: Maison Francis Kurkdjian Xmas // 2018
 category: set-design
 client: Maison Francis Kurkdjian
 year: '2018'
