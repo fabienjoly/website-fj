@@ -11,5 +11,6 @@ abstract-en: iii
 project-images:
   - image: /assets/uploads/murosesvierge.jpg
   - image: /assets/uploads/murny2.jpg
+  - image: /assets/uploads/b1nnvjpimaa_hxl.jpg
 ---
 
