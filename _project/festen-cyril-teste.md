@@ -11,8 +11,8 @@ abstract-en: ttt
 project-images:
   - image: /assets/uploads/festen3.jpg
   - image: /assets/uploads/festen4.jpg
-  - image: /assets/uploads/festen2.jpg
   - image: /assets/uploads/festen7.jpg
+  - image: /assets/uploads/festen2.jpg
   - image: /assets/uploads/festen5.jpg
   - image: /assets/uploads/festen6.jpg
   - image: /assets/uploads/festen1.jpg
