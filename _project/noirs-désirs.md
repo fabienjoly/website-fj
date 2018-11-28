@@ -6,8 +6,10 @@ client: Madame Figaro
 year: '2014'
 position: 6
 cover-image: /assets/uploads/couvrouge.jpg
-abstract-fr: Or et diamants rivalisent de noctures éclats.
-abstract-en: Or et diamants rivalisent de noctures éclats.
+abstract-fr: >-
+  Or et diamants rivalisent de noctures éclats. Une variation brillamment
+  sensuelle, aux lignes audacieuses et aux accents romantico-rock...
+abstract-en: ppp
 description-fr: >-
   Or et diamants rivalisent de noctures éclats. Une variation brillamment
   sensuelle, aux lignes audacieuses et aux accents romantico-rock...
@@ -19,7 +21,7 @@ description-fr: >-
   Réalisation : Sophie Vigié
 
 
-  Design Floral : Fabein Joly
+  Design Floral : Fabien Joly
 project-images:
   - image: /assets/uploads/rouge1.jpg
   - image: /assets/uploads/rouge2.jpg
