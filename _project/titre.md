@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Paper & Flower
+title: Libération Next // Flower x Paper
 category: set-design
-client: client ?
-year: '2015'
+client: Libération
+year: '2011'
 position: 5
 cover-image: /assets/uploads/okcouv-paper.jpg
 abstract-fr: text
