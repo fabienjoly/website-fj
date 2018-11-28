@@ -17,11 +17,8 @@ description-fr: >-
 
 
 
-  * Photographe : Gyslain Yarhi
-
-  * Réalisation : Sophie Vigié
-
-  * Design Floral : Fabien Joly
+  Photographe : Gyslain Yarhi Réalisation : Sophie Vigié Design Floral : Fabien
+  Joly
 project-images:
   - image: /assets/uploads/rouge1.jpg
   - image: /assets/uploads/rouge2.jpg
