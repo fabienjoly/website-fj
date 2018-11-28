@@ -6,8 +6,21 @@ client: Maison Francis Kurkdjian
 year: '2017'
 position: 5
 cover-image: /assets/uploads/covermfknoel2017.jpg
-abstract-fr: TEXT
+abstract-fr: >-
+  Dans l'esprit de l'intemporel, Fabien Joly articule son travail autour de
+  l'univers Maison Francis Kurkdjian. Hortensias stabilisés or et cuivre
+  illuminent les boutiques pour révéler la magie de Noël...
 abstract-en: TEXT
+description-fr: >-
+  Dans l'esprit de l'intemporel, Fabien Joly articule son travail autour de
+  l'univers Maison Francis Kurkdjian. Hortensias stabilisés or et cuivre
+  illuminent les boutiques pour révéler la magie de Noël...
+
+
+  Photographie : Yulek Studio ©
+
+
+  Set Design : Fabien Joly
 project-images:
   - image: /assets/uploads/mfk4norl2017.jpg
   - image: /assets/uploads/mfk2norl2017.jpg
