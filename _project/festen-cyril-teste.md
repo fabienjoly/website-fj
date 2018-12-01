@@ -20,7 +20,7 @@ description-fr: >-
   Teste de « Festen », le film de Thomas Vinterberg. » 
 
 
-  Armelle Héliot // Le Figaro
+  _Armelle Héliot // Le Figaro_
 project-images:
   - image: /assets/uploads/festen3.jpg
   - image: /assets/uploads/festen4.jpg
