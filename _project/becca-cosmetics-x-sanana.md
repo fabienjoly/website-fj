@@ -1,16 +1,30 @@
 ---
 layout: project
-title: 'Becca Cosmetics x Sanana '
+title: Becca Cosmetics x Sananas
 category: event
 client: Becca
 year: '2018'
 position: 9
 cover-image: /assets/uploads/becca-cover.jpg
-abstract-fr: texte
+abstract-fr: >-
+  Création d'un mur de roses, pour la soirée de lancement de l'highlighter
+  Parisian Lights Sananas x Becca Cosmetics.
 abstract-en: texte
-description-fr: texte
+description-fr: >-
+  Création d'un mur de roses, pour la soirée de lancement de l'highlighter
+  Parisian Lights Sananas x Becca Cosmetics.
+
+
+  Mise en place du photo call pour la soirée avec des roses fraîches à l'hôtel
+  particulier Montmartre
+
+
+
+
+  Set design : Fabien Joly
 description-en: texte
 project-images:
-  - image: /assets/uploads/becca1.jpg
+  - image: /assets/uploads/murroses.jpg
+  - image: /assets/uploads/murroses2.jpg
 ---
 

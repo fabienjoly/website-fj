@@ -1,14 +1,22 @@
 ---
 layout: project
-title: Paper & Flower
+title: Libération Next // Flower x Paper
 category: set-design
-client: client ?
-year: '2015'
+client: Libération
+year: '2011'
 position: 5
 cover-image: /assets/uploads/okcouv-paper.jpg
-abstract-fr: text
+abstract-fr: >-
+  Mélant le travail du papier et celui des fleurs, Fabien Joly confronte ici la
+  rigidité de la découpe à la géométrie naturelle des fleurs. Une rencontre de
+  couleurs, de matières et de formes qui crée une ambiance minimaliste au
+  service du beau.
 abstract-en: text
-description-fr: text
+description-fr: >-
+  Mélant le travail du papier et celui des fleurs, Fabien Joly confronte ici la
+  rigidité de la découpe à la géométrie naturelle des fleurs. Une rencontre de
+  couleurs, de matières et de formes qui crée une ambiance minimaliste au
+  service du beau.
 project-images:
   - image: /assets/uploads/insta-1.jpg
   - image: /assets/uploads/insta-2.jpg
