@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'Becca Cosmetics x Sanana '
+title: Becca Cosmetics x Sananas
 category: event
 client: Becca
 year: '2018'
