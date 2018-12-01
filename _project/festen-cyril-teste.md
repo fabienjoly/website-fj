@@ -14,7 +14,13 @@ abstract-fr: >-
 
   Armelle Héliot // Le Figaro
 abstract-en: ttt
-description-fr: ''
+description-fr: >-
+  « Le nez Francis Kurkdjian, le fleuriste Fabien Joly , le chef Olivier Théron
+  sont à l’oeuvre aux Ateliers Berthiers pour exalter la mise en scène de Cyril
+  Teste de « Festen », le film de Thomas Vinterberg. » 
+
+
+  Armelle Héliot // Le Figaro
 project-images:
   - image: /assets/uploads/festen3.jpg
   - image: /assets/uploads/festen4.jpg
