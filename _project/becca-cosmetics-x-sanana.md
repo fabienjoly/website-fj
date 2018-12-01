@@ -7,11 +7,11 @@ year: '2018'
 position: 9
 cover-image: /assets/uploads/becca-cover.jpg
 abstract-fr: >-
-  Création d'un mur de roses, pour la soirée de lancement de l'hightlighter
+  Création d'un mur de roses, pour la soirée de lancement de l'highlighter
   Parisian Lights Sananas x Becca Cosmetics.
 abstract-en: texte
 description-fr: >-
-  Création d'un mur de roses, pour la soirée de lancement de l'hightlighter
+  Création d'un mur de roses, pour la soirée de lancement de l'highlighter
   Parisian Lights Sananas x Becca Cosmetics.
 
 
