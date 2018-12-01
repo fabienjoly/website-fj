@@ -1,14 +1,23 @@
 ---
 layout: project
-title: 'Haute Couture '
+title: 'Fleurs en Haute Couture '
 category: set-design
-client: 'magazine ? '
+client: Vogue Japon
 year: '2014'
 position: 7
 cover-image: /assets/uploads/couv-chine.jpg
-abstract-fr: texte
+abstract-fr: >-
+  Série des compositions florales à l'image des grands couturiers de notre
+  siècle. Fabien Joly réalise ici une sculpture naturelle de chacun d'eux,
+  mêlant romantisme et douceur.
 abstract-en: texte
-description-fr: texte
+description-fr: >-
+  Série des compositions florales à l'image des grands couturiers de notre
+  siècle. Fabien Joly réalise ici une sculpture naturelle de chacun d'eux,
+  mêlant romantisme et douceur.
+
+
+  Set design : Fabien Joly
 project-images:
   - image: /assets/uploads/1chine.jpg
   - image: /assets/uploads/2chine.jpg
