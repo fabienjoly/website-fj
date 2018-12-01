@@ -21,6 +21,20 @@ description-fr: >-
 
 
   Armelle Héliot // Le Figaro
+
+
+
+
+  Mise en scène : Cyril Teste
+
+
+  Parfumeur : Francis Kurkdjian
+
+
+  Design Floral : Fabien Joly
+
+
+  Chef gastronomique : Olivier Théron
 project-images:
   - image: /assets/uploads/festen3.jpg
   - image: /assets/uploads/festen4.jpg
