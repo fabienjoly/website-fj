@@ -19,7 +19,18 @@ abstract-fr: >-
 
   Set design : Fabien Joly
 abstract-en: texte
-description-fr: texte
+description-fr: >-
+  Création d'un mur de roses, pour la soirée de lancement de l'hightlighter
+  Parisian Lights Sananas x Becca Cosmetics.
+
+
+  Mise en place du photo call pour la soirée avec des roses fraîches à l'hôtel
+  particulier Montmartre
+
+
+
+
+  Set design : Fabien Joly
 description-en: texte
 project-images:
   - image: /assets/uploads/murroses.jpg
