@@ -6,7 +6,9 @@ client: Becca
 year: '2018'
 position: 9
 cover-image: /assets/uploads/becca-cover.jpg
-abstract-fr: texte
+abstract-fr: >-
+  Création d'un mur de roses, pour la soirée de lancement de l'hightlighter
+  Parisian Lights Sananas x Becca Cosmetics.
 abstract-en: texte
 description-fr: texte
 description-en: texte
