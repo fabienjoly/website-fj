@@ -1,3 +1,4 @@
+lazyload();
 
 var scaleContainer = document.querySelector(".scale-animation-container");
 
@@ -71,6 +72,56 @@ function setHighlightPosition(e) {
 for (var i = 0; i < highlightButtons.length; i++) {
 	highlightButtons[i].addEventListener("click", setHighlightPosition, false);
 }
+
+
+
+// Composition gallery lightbox
+window.addEventListener("load", function() {
+
+  var thumbnail = document.querySelectorAll(".compo-thumbnail");
+  var fullImage = document.querySelectorAll(".compo-big");
+
+  function lockScroll() {
+    document.body.classList.add("scroll-locked");
+  }
+
+  function unlockScroll() {
+    document.body.classList.remove("scroll-locked");
+  }
+
+  function highlightImage(imageClickEvent) {
+
+    var clickedItem = imageClickEvent.currentTarget;
+    var itemID = clickedItem.getAttribute("compo-id");
+    var associatedHighlight = document.querySelector("#id" + itemID);
+
+    associatedHighlight.classList.add("active");
+
+    lockScroll();
+  };
+
+  function closeImage() {
+    for (var i = 0; i < fullImage.length; i++) {
+      fullImage[i].classList.remove("active");
+    }
+    unlockScroll();
+  }
+
+  for (i = 0; i < thumbnail.length; i++) {
+     thumbnail[i].addEventListener("click", function(e) {
+      closeImage();
+      highlightImage(e);
+     })
+  }
+
+  for (i = 0; i < fullImage.length; i++) {
+    fullImage[i].addEventListener("click", closeImage);
+  }
+});
+
+
+
+
 
 
 // Scroll top animation

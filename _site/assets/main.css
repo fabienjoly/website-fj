@@ -1309,6 +1309,53 @@ button, .button {
     .project-detail-button {
       margin: 0px; } }
 
+.compo-list-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap; }
+
+.compo-thumbnail {
+  position: relative;
+  width: 31%;
+  margin: 1%;
+  padding-top: 31%;
+  cursor: pointer;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0; }
+  .compo-thumbnail img {
+    position: relative;
+    margin-top: -100%;
+    width: 100%; }
+
+.compo-big {
+  opacity: 0;
+  pointer-events: none;
+  position: fixed;
+  top: 100%;
+  right: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(51, 49, 46, 0.6);
+  z-index: 20; }
+  .compo-big img {
+    width: 95%;
+    max-width: 800px; }
+
+.compo-big.active {
+  top: 0;
+  opacity: 1;
+  pointer-events: all; }
+
 .project-page-cover {
   display: block;
   width: 100%;

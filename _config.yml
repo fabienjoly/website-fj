@@ -8,7 +8,7 @@ url: "https://fabien-joly.com"
 collections:
   project:
     output: true
-  composition:
+  compositions:
     output: false
 
 # Build settings
@@ -16,6 +16,7 @@ markdown: kramdown
 
 plugins:
   - jekyll-multiple-languages-plugin
+  - jekyll-srcset
   # - jekyll-livereload
 
 languages: ["fr", "en"]

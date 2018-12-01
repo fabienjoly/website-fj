@@ -1,5 +1,53 @@
 ---
-layout: default
 namesp: compositions
 permalink: /compositions/
 ---
+
+
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include menu.html %}
+
+    <div class="scale-animation-container">
+
+      {% include header.html %}
+
+      <div class="main-container">
+
+        <div class="wrapper">
+          <h1 class="title page-title">Compositions florales</h1>
+          <div class="compo-list-wrapper">
+            {% assign compositions-by-date = site.compositions | sort: "date" | reverse %}
+            {% for composition in compositions-by-date %}
+              <div class="compo-thumbnail" compo-id="{{ forloop.index }}">
+                {% image_tag src=composition.image width="480" class="lazyload" %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+        
+      </div>
+
+      {% include footer.html %}
+
+    </div>
+
+    <div class="illustration-highlight-wrapper">
+      {% for composition in compositions-by-date %}
+        <div id="id{{ forloop.index }}" class="compo-big">
+          {% image_tag src=composition.image width="800" class="lazyload" %}
+        </div>
+      {% endfor %}
+    </div>
+
+    {% include js.html %}
+
+  </body>
+
+</html>
