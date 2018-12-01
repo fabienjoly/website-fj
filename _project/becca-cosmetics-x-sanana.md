@@ -11,7 +11,6 @@ abstract-en: texte
 description-fr: texte
 description-en: texte
 project-images:
-  - image: ''
   - image: /assets/uploads/murroses.jpg
 ---
 
