@@ -27,15 +27,15 @@
                 </div>
                 {%- if site.lang == "fr" -%}
                   {% if page.description-fr %}
-                    {{ page.description-fr }}
+                    {{ page.description-fr | markdownify }}
                   {% else %}
-                    {{ page.abstract-fr }}
+                    {{ page.abstract-fr | markdownify }}
                   {% endif %}
                 {%- elsif site.lang == "en" -%}
                   {% if page.description-en %}
-                    {{ page.description-en }}
+                    {{ page.description-en | markdownify }}
                   {% else %}
-                    {{ page.abstract-en }}
+                    {{ page.abstract-en | markdownify }}
                   {% endif %}
                 {%- endif -%}
               </div>

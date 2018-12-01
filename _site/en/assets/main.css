@@ -213,7 +213,7 @@ body {
 .title {
   font-family: "Tiempos", Times, serif;
   font-size: 86px;
-  line-height: 0.85; }
+  line-height: 1; }
 
 .page-title {
   text-align: center;
@@ -539,7 +539,7 @@ button, .button {
   justify-content: space-between; }
   .nav .header-link-container {
     display: block;
-    width: 200px;
+    width: auto;
     text-align: center; }
     .nav .header-link-container:first-child {
       text-align: left; }
@@ -748,7 +748,7 @@ button, .button {
   width: 560px;
   height: 100%;
   z-index: 10;
-  padding: 80px 0 60px 100px;
+  padding: 80px 0 60px 80px;
   margin: 0;
   display: -webkit-box;
   display: -webkit-flex;
@@ -849,24 +849,12 @@ button, .button {
 .menu-link-container {
   display: inline;
   margin: 0 0 40px;
-  color: #1C1C1C;
-  transform: translateX(120px);
-  opacity: 0;
-  transition: transform 0s 0.5s, opacity 0s 0.5s; }
+  color: #1C1C1C; }
   @media screen and (max-width: 720px) {
     .menu-link-container {
       margin: 0 0 20px; } }
   .menu-link-container:last-child {
     margin: 0; }
-
-.menu-visible .menu-link-container.first {
-  transition: transform 0.4s 0.1s, opacity 0.4s 0.1s; }
-
-.menu-visible .menu-link-container.second {
-  transition: transform 0.4s 0.2s, opacity 0.4s 0.2s; }
-
-.menu-visible .menu-link-container.third {
-  transition: transform 0.4s 0.3s, opacity 0.4s 0.3s; }
 
 .menu-visible .menu-link-container {
   transform: translateX(0);
@@ -1213,7 +1201,17 @@ button, .button {
   @media screen and (max-width: 720px) {
     .project-title h1, .project-title h2 {
       font-size: 27.95px;
-      line-height: 1; } }
+      line-height: 1.2; } }
+
+.project-cover-images,
+.project-cover-images:visited,
+.project-cover-images:active,
+.project-title,
+.project-title:visited,
+.project-title:active {
+  display: block;
+  text-decoration: none;
+  color: #1C1C1C; }
 
 .project-container:nth-child(odd) .project-title {
   text-align: left; }

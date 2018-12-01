@@ -20,9 +20,20 @@
   h1, h2 {
     @include media-query($phone){
       font-size: $title-small-size*0.65;
-      line-height: 1;
+      line-height: 1.2;
     }
   }
+}
+
+.project-cover-images,
+.project-cover-images:visited,
+.project-cover-images:active,
+.project-title,
+.project-title:visited,
+.project-title:active {
+  display: block;
+  text-decoration: none;
+  color: $text-dark;
 }
 
 .project-container:nth-child(odd) .project-title {

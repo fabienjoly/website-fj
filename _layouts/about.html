@@ -10,11 +10,11 @@ layout: default
   </div>
   <div class="about-description">
     {%- if site.lang == "fr" -%}
-      {{ page.description-fr }}
+      {{ page.description-fr | markdownify }}
     {%- endif -%}
 
     {%- if site.lang == "en" -%}
-      {{ page.description-en }}
+      {{ page.description-en | markdownify }}
     {%- endif -%}
   </div>
 </div>

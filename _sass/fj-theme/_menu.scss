@@ -222,7 +222,7 @@
   width: 560px;
   height: 100%;
   z-index: 10;
-  padding: $spacing-unit*4 0 $spacing-unit*3 $spacing-unit*5;
+  padding: $spacing-unit*4 0 $spacing-unit*3 $spacing-unit*4;
   margin: 0;
   @include flexbox;
   flex-direction: column;
@@ -345,10 +345,10 @@
   display: inline;
   margin: 0 0 $spacing-unit*2;
   color: $text-dark;
-  transform: translateX(120px);
-  opacity: 0;
+  // transform: translateX(120px);
+  // opacity: 0;
   // will-change: transform, opacity;
-  transition: transform 0s 0.5s, opacity 0s 0.5s;
+  // transition: transform 0s 0.5s, opacity 0s 0.5s;
 
   @include media-query($phone) {
     margin: 0 0 $spacing-unit;
@@ -359,17 +359,21 @@
   }
 }
 
-.menu-visible .menu-link-container.first {
-  transition: transform 0.4s 0.1s, opacity 0.4s 0.1s;
-}
-
-.menu-visible .menu-link-container.second {
-  transition: transform 0.4s 0.2s, opacity 0.4s 0.2s;
-}
-
-.menu-visible .menu-link-container.third {
-  transition: transform 0.4s 0.3s, opacity 0.4s 0.3s;
-}
+// .menu-visible .menu-link-container.first {
+//   transition: transform 0.4s 0.1s, opacity 0.4s 0.1s;
+// }
+//
+// .menu-visible .menu-link-container.second {
+//   transition: transform 0.4s 0.15s, opacity 0.4s 0.15s;
+// }
+//
+// .menu-visible .menu-link-container.third {
+//   transition: transform 0.4s 0.20s, opacity 0.4s 0.20s;
+// }
+//
+// .menu-visible .menu-link-container.fourth {
+//   transition: transform 0.4s 0.25s, opacity 0.4s 0.25s;
+// }
 
 .menu-visible .menu-link-container {
   transform: translateX(0);

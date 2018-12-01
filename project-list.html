@@ -18,9 +18,6 @@ permalink: /projects/
       <option value="event">
         {% translate event %}
       </option>
-      <option value="composition">
-        {% translate composition %}
-      </option>
     </select>
   </div>
 </div>
@@ -29,9 +26,14 @@ permalink: /projects/
   {% assign project-sorted = site.project | sort: 'position' %}
   {% for project in project-sorted %}
   <section class="project-container wrapper {{ project.category }}">
-    <div class="title project-title">
+    <a href="{%- if site.lang == "fr" -%}
+               {{ project.url }}
+             {%- elsif site.lang == "en" -%}
+               /en{{ project.url }}
+             {%- endif -%}"
+       class="title project-title">
       <h2>{{ project.title }}</h2>
-    </div>
+    </a>
     <div class="project-content">
 
       <summary class="project-abstract">
@@ -40,9 +42,9 @@ permalink: /projects/
         </span>
         <div class="description-text">
           {%- if site.lang == "fr" -%}
-            {{ project.abstract-fr }}
+            {{ project.abstract-fr | markdownify }}
           {%- elsif site.lang == "en" -%}
-            {{ project.abstract-en }}
+            {{ project.abstract-en | markdownify }}
           {%- endif -%}
         </div>
         <a href="{%- if site.lang == "fr" -%}
@@ -55,7 +57,12 @@ permalink: /projects/
         </a>
       </summary>
 
-      <div class="project-cover-images">
+      <a href="{%- if site.lang == "fr" -%}
+                 {{ project.url }}
+               {%- elsif site.lang == "en" -%}
+                 /en{{ project.url }}
+               {%- endif -%}"
+         class="project-cover-images">
         {%- if project.cover-image-2.size == 0 -%}
           <div class="cover-img-container cover-img-single" style="background-image: url({{ site.baseurl_root }}{{ project.cover-image }});"></div>
         {%- elsif project.cover-image-2 -%}
@@ -65,7 +72,7 @@ permalink: /projects/
           <div class="cover-img-container cover-img-single" style="background-image: url({{ site.baseurl_root }}{{ project.cover-image }});"></div>
         {%- endif -%}
 
-      </div>
+      </a>
 
     </div>
   </section>
