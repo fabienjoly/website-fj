@@ -12,7 +12,7 @@ abstract-fr: >-
   Teste de « Festen », le film de Thomas Vinterberg. » 
 
 
-  Armelle Héliot // Le Figaro
+  _Armelle Héliot // Le Figaro_
 abstract-en: ttt
 description-fr: >-
   « Le nez Francis Kurkdjian, le fleuriste Fabien Joly , le chef Olivier Théron
