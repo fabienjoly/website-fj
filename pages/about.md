@@ -19,6 +19,13 @@ description-fr: >-
   Rykiel et Maison Francis Kurkdjian.<br><br> Fabien Joly définit son travail
   comme un art en privilégiant l’esthétique et participe, avec succès, à la
   richesse de la création parisienne.
+
+
+
+
+
+
+  Pic by @Yulek
 description-en: english description
 ---
 
