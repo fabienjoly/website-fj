@@ -24,7 +24,6 @@ project-images:
   - image: /assets/uploads/maroc1.jpg
   - image: /assets/uploads/maroc2.jpg
   - image: /assets/uploads/eentroses.jpg
-  - image: /assets/uploads/maroc.jpg
   - image: /assets/uploads/maroc3.jpg
 ---
 
