@@ -11,14 +11,12 @@ abstract-fr: >-
   Parisian Lights Sananas x Becca Cosmetics.
 abstract-en: texte
 description-fr: >-
-  Création d'un mur de roses, pour la soirée de lancement de l'highlighter
-  Parisian Lights Sananas x Becca Cosmetics.
+  _Création d'un mur de roses, pour la soirée de lancement de l'highlighter
+  Parisian Lights Sananas x Becca Cosmetics._
 
 
-  Mise en place du photo call pour la soirée avec des roses fraîches à l'hôtel
-  particulier Montmartre
-
-
+  _Mise en place du photo call pour la soirée avec des roses fraîches à l'hôtel
+  particulier Montmartre._
 
 
   Set design : Fabien Joly
