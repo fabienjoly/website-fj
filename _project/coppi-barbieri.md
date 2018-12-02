@@ -19,15 +19,9 @@ abstract-fr: >-
   colorama.
 abstract-en: short desc
 description-fr: >-
-  Toucan, lion, libellule...
-
-
-  Dans un éden luxuriant tout droit sorti du douanier Rousseau, des bijoux
-  d'exception inspirés
-
-
-  par le règne animal et végétal célèbrent un luxe fantasque. Un manifeste en
-  colorama.
+  _Toucan, lion, libellule... Dans un éden luxuriant tout droit sorti du
+  douanier Rousseau, des bijoux d'exception inspirés par le règne animal et
+  végétal célèbrent un luxe fantasque. Un manifeste en colorama._
 
 
   Photos : Coppi Barbieri 
