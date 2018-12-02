@@ -16,9 +16,10 @@ description-fr: >-
   Fabien Joly crée un univers lumineux et chaud, sous une pluie de feuilles
   d'or, comme une manteau de neige recouvrant la ville un soir de Noël..._
 
-   Set Design : Fabien Joly
 
-  Photographie : Yulek Studio ©
+  Photographie : Yulek ©
+
+   Set Design : Fabien Joly
 project-images:
   - image: /assets/uploads/mfk-2018-1.jpg
   - image: /assets/uploads/mfk-2018-2.jpg
