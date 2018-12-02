@@ -11,8 +11,8 @@ abstract-fr: >-
   délicates et les lignes poétiques des naturalistes du monde entier...
 abstract-en: texte
 description-fr: >-
-  Les pierres précieuses exubérantes, les montures noires et or, les perles
-  délicates et les lignes poétiques des naturalistes du monde entier...
+  _Les pierres précieuses exubérantes, les montures noires et or, les perles
+  délicates et les lignes poétiques des naturalistes du monde entier..._
 
 
   Photographe : Isabelle Bonjean
