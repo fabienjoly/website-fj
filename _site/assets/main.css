@@ -218,7 +218,7 @@ body {
 .page-title {
   text-align: center;
   font-size: 43px;
-  margin: 60px 0 40px; }
+  margin: 20px 0 60px; }
   @media screen and (max-width: 720px) {
     .page-title {
       text-align: left;
@@ -411,8 +411,8 @@ button, .button {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: -10px;
-  margin-bottom: 80px; }
+  margin-top: -40px;
+  margin-bottom: 100px; }
   @media screen and (max-width: 720px) {
     .filter-select-wrapper {
       justify-content: flex-start;

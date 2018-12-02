@@ -2,8 +2,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: -$spacing-unit/2;
-  margin-bottom: $spacing-unit*4;
+  margin-top: -$spacing-unit*2;
+  margin-bottom: $spacing-unit*5;
 
   @include media-query($phone) {
     justify-content: flex-start;

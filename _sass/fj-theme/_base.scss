@@ -62,7 +62,7 @@ a, a:visited, a:hover {
 .page-title {
   text-align: center;
   font-size: $title-small-size;
-  margin: $spacing-unit*3 0 $spacing-unit*2;
+  margin: $spacing-unit 0 $spacing-unit*3;
 
   @include media-query($phone) {
     // position: absolute;
