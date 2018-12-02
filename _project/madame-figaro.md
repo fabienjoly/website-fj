@@ -5,7 +5,7 @@ category: set-design
 client: Madame Figaro
 year: '2015'
 position: 4
-cover-image: /assets/uploads/figaro1.jpg
+cover-image: /assets/uploads/figaro5.jpg
 abstract-fr: >-
   Les pierres précieuses exubérantes, les montures noires et or, les perles
   délicates et les lignes poétiques des naturalistes du monde entier...
