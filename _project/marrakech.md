@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Marrakech
+title: Mariage à Marrakech
 category: event
 client: client
 year: '2014'
