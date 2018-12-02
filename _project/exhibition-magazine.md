@@ -6,9 +6,18 @@ client: Exhibition Magazine
 year: '2018'
 position: 3
 cover-image: /assets/uploads/couv-fashion.jpg
-abstract-fr: >-
-  Exhibition Magazine // Photographie : Suzie & Léo // Stylisme : Belen
-  Casadevall // Coiffure : Yuji Okuda // Make-up : Satoko Watanabe
+abstract-fr: |-
+  _Exhibition Magazine - Série " Dad is a Florist"_
+
+
+
+  Photographie : Suzie & Léo 
+
+  Stylisme : Belen Casadevall 
+
+  Coiffure : Yuji Okuda 
+
+  Make-up : Satoko Watanabe
 abstract-en: desc
 description-fr: >-
   Exhibition Magazine // Photographie : Suzie & Léo // Stylisme : Belen
