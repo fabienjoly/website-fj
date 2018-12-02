@@ -39,10 +39,10 @@ description-fr: >-
   Ambiance Florale : Fabien Joly
 description-en: ''
 project-images:
+  - image: /assets/uploads/test.jpg
   - image: /assets/uploads/coppi1_.jpg
   - image: /assets/uploads/coppi9_.jpg
   - image: /assets/uploads/coppi7_.jpg
-  - image: /assets/uploads/test.jpg
   - image: /assets/uploads/coppi8_.jpg
   - image: /assets/uploads/coppi10_.jpg
   - image: /assets/uploads/coppi2_.jpg
