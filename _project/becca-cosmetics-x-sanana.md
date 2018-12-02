@@ -24,5 +24,6 @@ description-en: texte
 project-images:
   - image: /assets/uploads/murroses.jpg
   - image: /assets/uploads/murroses2.jpg
+  - image: /assets/uploads/eiffel.jpg
 ---
 
