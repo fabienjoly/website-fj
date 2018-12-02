@@ -2,7 +2,7 @@
 layout: project
 title: Libération Next // Flower x Paper
 category: set-design
-client: Libération
+client: Libération x Next Supplément
 year: '2011'
 position: 5
 cover-image: /assets/uploads/okcouv-paper.jpg
@@ -13,10 +13,16 @@ abstract-fr: >-
   service du beau.
 abstract-en: text
 description-fr: >-
-  Mélant le travail du papier et celui des fleurs, Fabien Joly confronte ici la
+  _Mélant le travail du papier et celui des fleurs, Fabien Joly confronte ici la
   rigidité de la découpe à la géométrie naturelle des fleurs. Une rencontre de
   couleurs, de matières et de formes qui crée une ambiance minimaliste au
-  service du beau.
+  service du beau._
+
+
+  Photographie : Olivia Fermineau 
+
+
+  Set design floral : Fabien Joly
 project-images:
   - image: /assets/uploads/insta-1.jpg
   - image: /assets/uploads/insta-2.jpg
