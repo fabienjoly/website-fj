@@ -17,7 +17,7 @@ description-fr: >-
   illuminent les boutiques pour révéler la magie de Noël..._
 
 
-  Photographie : Yulek Studio ©
+  Photographie : Yulek ©
 
 
   Set Design : Fabien Joly
