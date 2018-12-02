@@ -4,7 +4,7 @@ namesp: about
 permalink: /about/
 image-about: /assets/uploads/fj.jpg
 description-fr: >-
-  Fabien Joly a pour parcours singulier, celui d’un « self made man » dans le
+  _Fabien Joly a pour parcours singulier, celui d’un « self made man » dans le
   monde de la fleur.<br><br> Titulaire d’une maîtrise de sociologie, il se
   destine à l’enseignement. Mais arrivé à Paris, Fabien se découvre une
   passion pour les fleurs.<br><br> Après dix ans d’expérience, il crée sa
@@ -18,7 +18,14 @@ description-fr: >-
   comme Givenchy, Louis Vuitton, Hermès, Nina Ricci, Alexander Mc Queen, Sonia
   Rykiel et Maison Francis Kurkdjian.<br><br> Fabien Joly définit son travail
   comme un art en privilégiant l’esthétique et participe, avec succès, à la
-  richesse de la création parisienne.
+  richesse de la création parisienne._
+
+
+
+
+
+
+  Pic by @Yulek
 description-en: english description
 ---
 

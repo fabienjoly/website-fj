@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Marrakech
+title: Mariage à Marrakech
 category: event
 client: client
 year: '2014'
@@ -13,16 +13,17 @@ abstract-fr: >-
   couchant.
 abstract-en: txt
 description-fr: >-
-  Mêlant géométrie orientale et compostions florales omposantes, Fabien Joly
+  _Mêlant géométrie orientale et compostions florales omposantes, Fabien Joly
   réalise la décoration pour ce mariage au Maroc. Ortensias et orchidées
   rencontrent les milles et une nuits à la lumière des bougies et du soleil
-  couchant.
+  couchant._
 
 
   Set design : Fabien Joly
 project-images:
   - image: /assets/uploads/maroc1.jpg
   - image: /assets/uploads/maroc2.jpg
+  - image: /assets/uploads/eentroses.jpg
   - image: /assets/uploads/maroc3.jpg
 ---
 

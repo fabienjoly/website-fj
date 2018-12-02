@@ -12,9 +12,9 @@ abstract-fr: >-
   mêlant romantisme et douceur.
 abstract-en: texte
 description-fr: >-
-  Série des compositions florales à l'image des grands couturiers de notre
+  _Série des compositions florales à l'image des grands couturiers de notre
   siècle. Fabien Joly réalise ici une sculpture naturelle de chacun d'eux,
-  mêlant romantisme et douceur.
+  mêlant romantisme et douceur._
 
 
   Set design : Fabien Joly

@@ -12,12 +12,12 @@ abstract-fr: >-
   d'or, comme un manteau de neige recouvrant la ville un soir de Noël...
 abstract-en: mmmm
 description-fr: >-
-  La lumière et l'or illumine la Maison Francis Kurkdjian pour cette année.
+  _La lumière et l'or illumine la Maison Francis Kurkdjian pour cette année.
   Fabien Joly crée un univers lumineux et chaud, sous une pluie de feuilles
-  d'or, comme une manteau de neige recouvrant la ville un soir de Noël...
+  d'or, comme une manteau de neige recouvrant la ville un soir de Noël..._
 
 
-  Photographie : Yulek Studio ©
+  Photographie : Yulek ©
 
    Set Design : Fabien Joly
 project-images:

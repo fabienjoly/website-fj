@@ -12,12 +12,12 @@ abstract-fr: >-
   illuminent les boutiques pour révéler la magie de Noël...
 abstract-en: TEXT
 description-fr: >-
-  Dans l'esprit de l'intemporel, Fabien Joly articule son travail autour de
+  _Dans l'esprit de l'intemporel, Fabien Joly articule son travail autour de
   l'univers Maison Francis Kurkdjian. Hortensias stabilisés or et cuivre
-  illuminent les boutiques pour révéler la magie de Noël...
+  illuminent les boutiques pour révéler la magie de Noël..._
 
 
-  Photographie : Yulek Studio ©
+  Photographie : Yulek ©
 
 
   Set Design : Fabien Joly
