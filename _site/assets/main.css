@@ -412,11 +412,12 @@ button, .button {
   display: flex;
   justify-content: center;
   margin-top: -40px;
-  margin-bottom: 100px; }
+  margin-bottom: 80px; }
   @media screen and (max-width: 720px) {
     .filter-select-wrapper {
       justify-content: flex-start;
       padding: 0px 20px;
+      margin-top: -20px;
       margin-bottom: 40px; } }
 
 /*the container must be positioned relative:*/
@@ -1473,6 +1474,18 @@ button, .button {
   @media screen and (max-width: 720px) {
     .about-photo, .about-description {
       width: 100%; } }
+
+.about-description {
+  margin-top: -10px; }
+  @media screen and (max-width: 720px) {
+    .about-description {
+      margin-top: 0; } }
+
+.about-photo {
+  margin-top: 10px; }
+  @media screen and (max-width: 720px) {
+    .about-photo {
+      margin-top: 0; } }
 
 .about-photo img {
   width: 100%; }

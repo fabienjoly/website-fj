@@ -3,11 +3,12 @@
   display: flex;
   justify-content: center;
   margin-top: -$spacing-unit*2;
-  margin-bottom: $spacing-unit*5;
+  margin-bottom: $spacing-unit*4;
 
   @include media-query($phone) {
     justify-content: flex-start;
     padding: 0px $spacing-unit;
+    margin-top: -$spacing-unit;
     margin-bottom: $spacing-unit*2;
   }
 }

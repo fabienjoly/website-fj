@@ -17,6 +17,22 @@
   }
 }
 
+.about-description {
+  margin-top: -$spacing-unit/2;
+
+  @include media-query($phone) {
+    margin-top: 0;
+  }
+}
+
+.about-photo {
+  margin-top: $spacing-unit/2;
+
+  @include media-query($phone) {
+    margin-top: 0;
+  }
+}
+
 .about-photo img {
   width: 100%;
 }
