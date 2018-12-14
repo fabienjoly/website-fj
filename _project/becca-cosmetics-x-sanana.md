@@ -15,8 +15,8 @@ description-fr: >-
   Parisian Lights Sananas x Becca Cosmetics._
 
 
-  _Mise en place du photo call pour la soirée avec des roses fraîches à l'hôtel
-  particulier Montmartre._
+  _Mise en place du photo call pour la soirée de lancement à l'hôtel particulier
+  Montmartre._
 
 
   Set design : Fabien Joly
