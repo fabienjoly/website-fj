@@ -8,13 +8,13 @@ position: 7
 cover-image: /assets/uploads/couv-chine.jpg
 abstract-fr: >-
   Série des compositions florales à l'image des grands couturiers de notre
-  siècle. Fabien Joly réalise ici une sculpture naturelle de chacun d'eux,
-  mêlant romantisme et douceur.
+  siècle pour un magazine japonais. Fabien Joly réalise une sculpture naturelle
+  pour chacun d’entre eux mêlant romantisme et douceur.
 abstract-en: texte
 description-fr: >-
   _Série des compositions florales à l'image des grands couturiers de notre
-  siècle. Fabien Joly réalise ici une sculpture naturelle de chacun d'eux,
-  mêlant romantisme et douceur._
+  siècle pour un magazine japonais. Fabien Joly réalise une sculpture naturelle
+  pour chacun d’entre eux mêlant romantisme et douceur._
 
 
   Set design : Fabien Joly
