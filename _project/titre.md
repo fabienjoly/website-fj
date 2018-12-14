@@ -7,16 +7,16 @@ year: '2011'
 position: 5
 cover-image: /assets/uploads/okcouv-paper.jpg
 abstract-fr: >-
-  Mélant le travail du papier et celui des fleurs, Fabien Joly confronte ici la
-  rigidité de la découpe à la géométrie naturelle des fleurs. Une rencontre de
-  couleurs, de matières et de formes qui crée une ambiance minimaliste au
-  service du beau.
+  Mêlant le travail du papier et celui des fleurs, Olivia Fermineau et Fabien
+  Joly confrontent ici la rigidité de la découpe à la géométrie naturelle des
+  fleurs. Une rencontre de couleurs, de matières et de formes qui crée une
+  ambiance minimaliste.
 abstract-en: text
 description-fr: >-
-  _Mélant le travail du papier et celui des fleurs, Fabien Joly confronte ici la
-  rigidité de la découpe à la géométrie naturelle des fleurs. Une rencontre de
-  couleurs, de matières et de formes qui crée une ambiance minimaliste au
-  service du beau._
+  _Mêlant le travail du papier et celui des fleurs, Olivia Fermineau_ _et_
+  _Fabien Joly confrontent ici la rigidité de la découpe à la géométrie
+  naturelle des fleurs. Une rencontre de couleurs, de matières et de formes qui
+  crée une ambiance minimaliste._
 
 
   Photographie : Olivia Fermineau 
