@@ -7,13 +7,13 @@ year: '2017'
 position: 5
 cover-image: /assets/uploads/covermfknoel2017.jpg
 abstract-fr: >-
-  Dans l'esprit de l'intemporel, Fabien Joly articule son travail autour de
-  l'univers Maison Francis Kurkdjian. Hortensias stabilisés or et cuivre
-  illuminent les boutiques pour révéler la magie de Noël...
+  Dans l'esprit intemporel, Fabien Joly articule son travail autour de l'univers
+  de la Maison Francis Kurkdjian. Hortensias stabilisés or et cuivre illuminent
+  les boutiques pour révéler la magie de Noël...
 abstract-en: TEXT
 description-fr: >-
-  _Dans l'esprit de l'intemporel, Fabien Joly articule son travail autour de
-  l'univers Maison Francis Kurkdjian. Hortensias stabilisés or et cuivre
+  _Dans l'esprit intemporel, Fabien Joly articule son travail autour de
+  l'univers de la Maison Francis Kurkdjian. Hortensias stabilisés or et cuivre
   illuminent les boutiques pour révéler la magie de Noël..._
 
 
