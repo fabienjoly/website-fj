@@ -7,13 +7,13 @@ year: '2014'
 position: 4
 cover-image: /assets/uploads/couv-maroc.jpg
 abstract-fr: >-
-  Mêlant géométrie orientale et compostions florales omposantes, Fabien Joly
+  Mêlant géométrie orientale et compostions florales imposantes, Fabien Joly
   réalise la décoration pour ce mariage au Maroc. Ortensias et orchidées
   rencontrent les milles et une nuits à la lumière des bougies et du soleil
   couchant.
 abstract-en: txt
 description-fr: >-
-  _Mêlant géométrie orientale et compostions florales omposantes, Fabien Joly
+  _Mêlant géométrie orientale et compostions florales imposantes, Fabien Joly
   réalise la décoration pour ce mariage au Maroc. Ortensias et orchidées
   rencontrent les milles et une nuits à la lumière des bougies et du soleil
   couchant._
