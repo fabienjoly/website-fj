@@ -5,13 +5,16 @@
 
   <body>
 
-    <!-- <div class="main-container">
+    <div class="main-container">
       <div class="home-container">
         <div class="home-title">
           <h1>Fabien Joly</h1>
           <span>Haute Fleuristerie</span>
         </div>
-        {%- if site.lang == "fr" -%}
+        <a href="{{ site.baseurl_root }}/projects/" class="home-logo">
+          <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
+        </a>
+        <!-- {%- if site.lang == "fr" -%}
         <a href="{{ site.baseurl_root }}/projects/" class="home-logo">
           <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
         </a>
@@ -19,19 +22,20 @@
         <a href="{{ site.baseurl_root }}/en/projects/" class="home-logo">
           <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
         </a>
-        {%- endif -%}
+        {%- endif -%} -->
         <div class="home-lang-select">
-          <a href="{{ site.baseurl_root }}/projects/">fr</a> / <a href="{{ site.baseurl_root }}/en/projects/">en</a>
+          <!-- <a href="{{ site.baseurl_root }}/projects/">fr</a> / <a href="{{ site.baseurl_root }}/en/projects/">en</a> -->
+          <a href="{{ site.baseurl_root }}/projects/">Entrer</a>
         </div>
       </div>
-    </div> -->
+    </div>
 
-    <span class="coming-soon">
+    <!-- <span class="coming-soon">
       <img src="{{ site.baseurl_root }}/assets/images/fj-logo.svg" alt="Fabien Joly logo">
       <div class="coming-soon-text">
         Coming soon
       </div>
-    </span>
+    </span> -->
 
     <script>
       if (window.netlifyIdentity) {

@@ -998,7 +998,10 @@ button, .button {
       margin-bottom: 40px; } }
 
 .footer-logo-container {
-  height: 80px; }
+  height: 120px; }
+  @media screen and (max-width: 1024px) {
+    .footer-logo-container {
+      height: 80px; } }
   .footer-logo-container img {
     display: block;
     width: auto;
@@ -1058,7 +1061,7 @@ button, .button {
     position: relative;
     font-family: "Tiempos", Times, serif;
     color: #1C1C1C;
-    font-size: 27.95px;
+    font-size: 25.8px;
     line-height: 38.7px;
     text-decoration: none;
     transition: opacity 0.22s; }
@@ -1090,6 +1093,9 @@ button, .button {
   transition: opacity 0.22s; }
   .footer-social a:hover, .footer-social a:visited:hover {
     opacity: 1; }
+@media screen and (max-width: 720px) {
+  .footer-social {
+    margin-top: -125px; } }
 
 .home-container {
   height: 100vh;
@@ -1101,7 +1107,7 @@ button, .button {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 0;
+  padding: 60px 0;
   position: relative; }
   @media screen and (max-width: 1280px) {
     .home-container {
@@ -1156,7 +1162,6 @@ button, .button {
     color: #919191; }
 
 .home-logo {
-  display: none;
   animation: logo-animation 3s; }
   .home-logo img {
     width: 120px; }
@@ -1185,6 +1190,11 @@ button, .button {
     transform: scale(1); } }
 .home-lang-select a, .home-lang-select a:visited {
   color: #1C1C1C; }
+
+.project-list-container {
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto; }
 
 .project-container {
   margin-bottom: 160px; }

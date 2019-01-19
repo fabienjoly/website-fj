@@ -43,7 +43,11 @@
 }
 
 .footer-logo-container {
-  height: 80px;
+  height: 120px;
+
+  @include media-query($tablet) {
+    height: 80px;
+  }
 
   img {
     display: block;
@@ -114,7 +118,7 @@
     position: relative;
     font-family: $title-font;
     color: $text-dark;
-    font-size: $title-small-size*0.65;
+    font-size: $title-small-size*0.6;
     line-height: $title-small-size*0.9;
     text-decoration: none;
     // opacity: 0.5;
@@ -158,5 +162,9 @@
     &:hover {
       opacity: 1;
     }
+  }
+
+  @include media-query($phone) {
+    margin-top: -125px;
   }
 }

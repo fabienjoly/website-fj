@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: $spacing-unit*2 0;
+  padding: $spacing-unit*3 0;
   position: relative;
 
   @include media-query($laptop){
@@ -75,7 +75,7 @@
 }
 
 .home-logo {
-  display: none;
+  // display: none;
   animation: logo-animation 3s;
 
   img {
