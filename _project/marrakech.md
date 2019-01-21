@@ -14,8 +14,8 @@ abstract-fr: >-
 abstract-en: txt
 description-fr: >-
   _Mêlant géométrie orientale et compostions florales imposantes, Fabien Joly
-  réalise la décoration pour ce mariage au Maroc. Hortensias, arum et orchidée_s
-  _rencontrent les milles et une nuits à la lumière des bougies et du soleil
+  réalise la décoration pour ce mariage au Maroc. Hortensias, arum et orchidées
+  rencontrent les milles et une nuits à la lumière des bougies et du soleil
   couchant._
 
 
