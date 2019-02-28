@@ -5,9 +5,9 @@ permalink: /about/
 image-about: /assets/uploads/fj.jpg
 description-fr: >-
   _Fabien Joly a pour parcours singulier, celui d’un « self made man » dans le
-  monde de la fleur.<br><br> <br><br> Après dix ans d’expérience, il crée sa
-  propre maison et propose des créations personnelles et modernes associées à
-  un univers généreux et «&thinsp;romantico-rock&thinsp;» où l’harmonie des
+  monde de la fleur.<br><br>  Après dix ans d’expérience, il crée sa propre
+  maison et propose des créations personnelles et modernes associées à un
+  univers généreux et «&thinsp;romantico-rock&thinsp;» où l’harmonie des
   couleurs est novatrice et maîtrisée.<br><br> Son savoir-faire est pluriel.
   Les fleurs ne sont pas simplement fleurs, elles sont aussi robes, bijoux ou
   accessoires. Elles racontent une histoire…<br><br> Devenu en l’espace de
