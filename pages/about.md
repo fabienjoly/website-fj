@@ -5,9 +5,7 @@ permalink: /about/
 image-about: /assets/uploads/fj.jpg
 description-fr: >-
   _Fabien Joly a pour parcours singulier, celui d’un « self made man » dans le
-  monde de la fleur.<br><br> Titulaire d’une maîtrise de sociologie, il se
-  destine à l’enseignement. Mais arrivé à Paris, Fabien se découvre une
-  passion pour les fleurs.<br><br> Après dix ans d’expérience, il crée sa
+  monde de la fleur.<br><br> <br><br> Après dix ans d’expérience, il crée sa
   propre maison et propose des créations personnelles et modernes associées à
   un univers généreux et «&thinsp;romantico-rock&thinsp;» où l’harmonie des
   couleurs est novatrice et maîtrisée.<br><br> Son savoir-faire est pluriel.
@@ -19,10 +17,6 @@ description-fr: >-
   Rykiel et Maison Francis Kurkdjian.<br><br> Fabien Joly définit son travail
   comme un art en privilégiant l’esthétique et participe, avec succès, à la
   richesse de la création parisienne._
-
-
-
-
 
 
   Pic by @Yulek
