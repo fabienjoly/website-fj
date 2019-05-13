@@ -11,5 +11,8 @@ abstract-fr: testLDld
 abstract-en: lldldlD
 project-images:
   - image: /assets/uploads/biotherm1.jpg
+  - image: /assets/uploads/bouteillebiotherm.jpg
+  - image: /assets/uploads/biotherm3.jpg
+  - image: /assets/uploads/bioherm4.jpg
 ---
 
