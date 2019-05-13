@@ -1,6 +1,6 @@
 ---
 layout: project
-title: ' Évenement Biotherm '
+title: ' Évènement Biotherm '
 category: event
 client: 'Biotherm '
 year: '2019'
