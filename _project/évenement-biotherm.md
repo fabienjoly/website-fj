@@ -7,8 +7,22 @@ year: '2019'
 position: 1
 cover-image: /assets/uploads/couv1bid.jpg
 cover-image-2: ''
-abstract-fr: testLDld
+abstract-fr: >-
+  Pour l'évènement, Fabien Joly et Séverine Baehrel transforment le lieu en une
+  forêt de fougères, aliant créations graphiques et florales.
 abstract-en: lldldlD
+description-fr: >-
+  _Pour l'évènement, Fabien Joly et Séverine Baehrel transforment le lieu en une
+  forêt de fougères, aliant créations graphiques et florales._ 
+
+
+  __
+
+
+  Scénographie : Séverine Baehrel 
+
+
+  Design Floral : Fabien Joly
 project-images:
   - image: /assets/uploads/biotherm1.jpg
   - image: /assets/uploads/bouteillebiotherm.jpg
