@@ -24,10 +24,10 @@ description-fr: >-
 
   Design Floral : Fabien Joly
 project-images:
-  - image: /assets/uploads/biotherm1.jpg
-  - image: /assets/uploads/bouteillebiotherm.jpg
   - image: /assets/uploads/biotherm3.jpg
   - image: /assets/uploads/biotherm4.jpg
   - image: /assets/uploads/biotherm5.jpg
+  - image: /assets/uploads/biotherm1.jpg
+  - image: /assets/uploads/bouteillebiotherm.jpg
 ---
 
