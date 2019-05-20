@@ -42,6 +42,13 @@ description-fr: >-
 
 
   __
-project-images: []
+project-images:
+  - image: /assets/uploads/vogue-chine-1.jpg
+  - image: /assets/uploads/vogue-chine-3.jpg
+  - image: /assets/uploads/vogue-chine-2.jpg
+  - image: /assets/uploads/vogue-chine-4.jpg
+  - image: /assets/uploads/vogue-chine-5.jpg
+  - image: /assets/uploads/vogue-chine-7.jpg
+  - image: /assets/uploads/vogue-chine-8.jpg
 ---
 
