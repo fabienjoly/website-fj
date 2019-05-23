@@ -6,8 +6,31 @@ client: 'Maison Francis Kurkdjian LVMH '
 year: '2019'
 position: 1
 cover-image: /assets/uploads/coveralr2019.jpg
-abstract-fr: dgdfg
+abstract-fr: >-
+  La rose est à l'honneur dans tous les points de vente Maison Francis
+  Kurkdjian, Fabien Joly sublime ces derniers en amenant une poésie éternelle
+  printanière...
 abstract-en: sgs
+description-fr: >-
+  _La rose est à l'honneur dans tous les points de vente Maison Francis
+  Kurkdjian, Fabien Joly sublime ces derniers en amenant une poésie
+  printanière... Grâce à ses roses stabilisées il parvient à figer la beauté des
+  roses fraîches dans le temps._
+
+
+  Maison Francis Kurdjian / Boutique rue D'Alger Paris & Boutique rue des Blancs
+  Manteaux 
+
+
+  Galeries Lafayette & Printemps 
+
+
+
+
+  Photographie : Martin Carlier / Maison Francis Kurkdjian
+
+
+  Se design : Fabien Joly
 project-images: []
 ---
 
