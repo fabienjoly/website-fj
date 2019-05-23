@@ -4,7 +4,7 @@ title: 'Maison Francis Kurkdjian // À la rose 2019 '
 category: set-design
 client: 'Maison Francis Kurkdjian LVMH '
 year: '2019'
-position: 1
+position: 2
 cover-image: /assets/uploads/coveralr2019.jpg
 abstract-fr: >-
   La rose est à l'honneur dans tous les points de vente Maison Francis
