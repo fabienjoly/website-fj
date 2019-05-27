@@ -4,7 +4,7 @@ title: Jungle Mix // Madame Figaro
 category: set-design
 client: Madame Figaro
 year: '2017'
-position: 2
+position: 4
 cover-image: /assets/uploads/test.jpg
 cover-image-2: ''
 abstract-fr: >-
