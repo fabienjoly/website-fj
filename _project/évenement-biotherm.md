@@ -4,7 +4,7 @@ title: ' Évènement Biotherm x Aqua Pure'
 category: event
 client: 'Biotherm '
 year: '2019'
-position: 1
+position: 3
 cover-image: /assets/uploads/couv1bid.jpg
 cover-image-2: ''
 abstract-fr: >-
