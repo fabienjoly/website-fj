@@ -36,5 +36,9 @@ project-images:
   - image: /assets/uploads/alr-alger-2.jpg
   - image: /assets/uploads/alr-alger-1.jpg
   - image: /assets/uploads/alr-alger-3.jpg
+  - image: /assets/uploads/galeries-alr-fj.jpg
+  - image: /assets/uploads/printemps-alr-fj-1.jpg
+  - image: /assets/uploads/printemps-alr-fj-3.jpg
+  - image: /assets/uploads/printemps-alr-fj-2.jpg
 ---
 
