@@ -25,12 +25,16 @@ description-fr: >-
   Galeries Lafayette & Printemps 
 
 
-
-
   Photographie : Martin Carlier / Maison Francis Kurkdjian
 
 
-  Se design : Fabien Joly
-project-images: []
+  Set design : Fabien Joly
+project-images:
+  - image: /assets/uploads/alr-bm-1.jpg
+  - image: /assets/uploads/alr-bm-hd.jpg
+  - image: /assets/uploads/alr-bm-3.jpg
+  - image: /assets/uploads/alr-alger-2.jpg
+  - image: /assets/uploads/alr-alger-1.jpg
+  - image: /assets/uploads/alr-alger-3.jpg
 ---
 
